@@ -1,4 +1,4 @@
-package servlet;
+package servlet.admin;
 
 import javax.servlet.RequestDispatcher;
 import javax.servlet.ServletException;
@@ -8,14 +8,15 @@ import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 import java.io.IOException;
 
-@WebServlet(name = "LoginServlet", urlPatterns = "/login")
-public class LoginServlet extends HttpServlet {
+@WebServlet(name = "HomeAdminServlet", urlPatterns = "/administrator")
+public class HomeAdminServlet extends HttpServlet {
     protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
 
     }
 
     protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
-        RequestDispatcher dispatcher = this.getServletContext().getRequestDispatcher("/pages/login.jsp");
+        RequestDispatcher dispatcher =
+                this.getServletContext().getRequestDispatcher("/pages/admin/index.jsp");
         dispatcher.forward(request, response);
     }
 }

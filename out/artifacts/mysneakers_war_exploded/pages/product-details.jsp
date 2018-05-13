@@ -1,3 +1,10 @@
+<%--
+    Document   : product-details
+    Created on : May 8, 2018, 12:53:12 PM
+    Author     : dell
+--%>
+
+<%@page contentType="text/html" pageEncoding="UTF-8"%>
 <!DOCTYPE html>
 <html lang="en">
 
@@ -133,7 +140,7 @@
                                             </li>
                                             <li class="total">
                                                 <span class="pull-right">Total: $20.00</span>
-                                                <a href="cart.html" class="btn btn-sm btn-cart">Cart</a>
+                                                <a href="cart.jsp" class="btn btn-sm btn-cart">Cart</a>
                                                 <a href="checkout-1.html" class="btn btn-sm btn-checkout">Checkout</a>
                                             </li>
                                         </ul>
@@ -174,10 +181,10 @@
                                                 <a class="nav-link dropdown-toggle" href="#" id="karlDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Pages</a>
                                                 <div class="dropdown-menu" aria-labelledby="karlDropdown">
                                                     <a class="dropdown-item" href="index.html">Home</a>
-                                                    <a class="dropdown-item" href="shop.html">Shop</a>
-                                                    <a class="dropdown-item" href="product-details.html">Product Details</a>
-                                                    <a class="dropdown-item" href="cart.html">Cart</a>
-                                                    <a class="dropdown-item" href="checkout.html">Checkout</a>
+                                                    <a class="dropdown-item" href="shop.jsp">Shop</a>
+                                                    <a class="dropdown-item" href="product-details.jsp">Product Details</a>
+                                                    <a class="dropdown-item" href="cart.jsp">Cart</a>
+                                                    <a class="dropdown-item" href="checkout.jsp">Checkout</a>
                                                 </div>
                                             </li>
                                             <li class="nav-item"><a class="nav-link" href="#">Dresses</a></li>
