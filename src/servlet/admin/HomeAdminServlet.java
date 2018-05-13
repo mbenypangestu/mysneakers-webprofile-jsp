@@ -16,7 +16,7 @@ public class HomeAdminServlet extends HttpServlet {
 
     protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
         RequestDispatcher dispatcher =
-                this.getServletContext().getRequestDispatcher("/pages/admin/test_page.jsp");
+                this.getServletContext().getRequestDispatcher("/pages/admin/index.jsp");
         dispatcher.forward(request, response);
     }
 }
