@@ -1,0 +1,383 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dataSource name="mysneakersby@localhost">
+  <database-model serializer="dbm" rdbms="MYSQL" format-version="4.7">
+    <root id="1">
+      <DefaultCasing>exact</DefaultCasing>
+    </root>
+    <schema id="2" parent="1" name="form_nikah"/>
+    <schema id="3" parent="1" name="information_schema"/>
+    <schema id="4" parent="1" name="mysneakersby">
+      <Current>1</Current>
+      <Visible>1</Visible>
+    </schema>
+    <schema id="5" parent="1" name="mysql"/>
+    <schema id="6" parent="1" name="performance_schema"/>
+    <schema id="7" parent="1" name="phpmyadmin"/>
+    <schema id="8" parent="1" name="web_nikah"/>
+    <table id="9" parent="4" name="artikel"/>
+    <table id="10" parent="4" name="brand"/>
+    <table id="11" parent="4" name="detail_order"/>
+    <table id="12" parent="4" name="jenis"/>
+    <table id="13" parent="4" name="kategori_produk"/>
+    <table id="14" parent="4" name="notifikasi"/>
+    <table id="15" parent="4" name="order"/>
+    <table id="16" parent="4" name="produk"/>
+    <table id="17" parent="4" name="promo_produk"/>
+    <table id="18" parent="4" name="role_user"/>
+    <table id="19" parent="4" name="size"/>
+    <table id="20" parent="4" name="size_produk"/>
+    <table id="21" parent="4" name="user"/>
+    <table id="22" parent="4" name="warna"/>
+    <table id="23" parent="4" name="warna_produk"/>
+    <column id="24" parent="9" name="id">
+      <Position>1</Position>
+      <DataType>INT(10)|4</DataType>
+      <NotNull>1</NotNull>
+      <SequenceIdentity>1</SequenceIdentity>
+    </column>
+    <column id="25" parent="9" name="judul">
+      <Position>2</Position>
+      <DataType>VARCHAR(50)|12</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="26" parent="9" name="konten">
+      <Position>3</Position>
+      <DataType>TEXT(65535)|-1</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="27" parent="9" name="gambar">
+      <Position>4</Position>
+      <DataType>VARCHAR(50)|12</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="28" parent="9" name="tgl_pos">
+      <Position>5</Position>
+      <DataType>DATETIME(19)|93</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <key id="29" parent="9" name="PRIMARY">
+      <NameSurrogate>1</NameSurrogate>
+      <ColNames>id</ColNames>
+      <Primary>1</Primary>
+    </key>
+    <column id="30" parent="10" name="id">
+      <Position>1</Position>
+      <DataType>INT(10)|4</DataType>
+      <NotNull>1</NotNull>
+      <SequenceIdentity>1</SequenceIdentity>
+    </column>
+    <column id="31" parent="10" name="nama">
+      <Position>2</Position>
+      <DataType>VARCHAR(50)|12</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <key id="32" parent="10" name="PRIMARY">
+      <NameSurrogate>1</NameSurrogate>
+      <ColNames>id</ColNames>
+      <Primary>1</Primary>
+    </key>
+    <column id="33" parent="11" name="order_id">
+      <Position>1</Position>
+      <DataType>INT(10)|4</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="34" parent="11" name="jumlah">
+      <Position>2</Position>
+      <DataType>INT(10)|4</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="35" parent="11" name="produk_id">
+      <Position>3</Position>
+      <DataType>INT(10)|4</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="36" parent="11" name="subtotal">
+      <Position>4</Position>
+      <DataType>DOUBLE(22)|8</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="37" parent="12" name="id">
+      <Position>1</Position>
+      <DataType>INT(10)|4</DataType>
+      <NotNull>1</NotNull>
+      <SequenceIdentity>1</SequenceIdentity>
+    </column>
+    <column id="38" parent="12" name="jenis">
+      <Position>2</Position>
+      <DataType>VARCHAR(50)|12</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <key id="39" parent="12" name="PRIMARY">
+      <NameSurrogate>1</NameSurrogate>
+      <ColNames>id</ColNames>
+      <Primary>1</Primary>
+    </key>
+    <column id="40" parent="13" name="id">
+      <Position>1</Position>
+      <DataType>INT(10)|4</DataType>
+      <NotNull>1</NotNull>
+      <SequenceIdentity>1</SequenceIdentity>
+    </column>
+    <column id="41" parent="13" name="kategori">
+      <Position>2</Position>
+      <DataType>VARCHAR(50)|12</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <key id="42" parent="13" name="PRIMARY">
+      <NameSurrogate>1</NameSurrogate>
+      <ColNames>id</ColNames>
+      <Primary>1</Primary>
+    </key>
+    <column id="43" parent="14" name="id">
+      <Position>1</Position>
+      <DataType>INT(10)|4</DataType>
+      <NotNull>1</NotNull>
+      <SequenceIdentity>1</SequenceIdentity>
+    </column>
+    <column id="44" parent="14" name="order_id">
+      <Position>2</Position>
+      <DataType>INT(10)|4</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="45" parent="14" name="notif">
+      <Position>3</Position>
+      <DataType>VARCHAR(50)|12</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <key id="46" parent="14" name="PRIMARY">
+      <NameSurrogate>1</NameSurrogate>
+      <ColNames>id</ColNames>
+      <Primary>1</Primary>
+    </key>
+    <column id="47" parent="15" name="id">
+      <Position>1</Position>
+      <DataType>INT(10)|4</DataType>
+      <NotNull>1</NotNull>
+      <SequenceIdentity>1</SequenceIdentity>
+    </column>
+    <column id="48" parent="15" name="tgl_order">
+      <Position>2</Position>
+      <DataType>DATETIME(19)|93</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="49" parent="15" name="total">
+      <Position>3</Position>
+      <DataType>DOUBLE(22)|8</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="50" parent="15" name="status_kirim">
+      <Position>4</Position>
+      <DataType>INT(10)|4</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="51" parent="15" name="status_terima">
+      <Position>5</Position>
+      <DataType>INT(10)|4</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <key id="52" parent="15" name="PRIMARY">
+      <NameSurrogate>1</NameSurrogate>
+      <ColNames>id</ColNames>
+      <Primary>1</Primary>
+    </key>
+    <column id="53" parent="16" name="id">
+      <Position>1</Position>
+      <DataType>INT(10)|4</DataType>
+      <NotNull>1</NotNull>
+      <SequenceIdentity>1</SequenceIdentity>
+    </column>
+    <column id="54" parent="16" name="brand_id">
+      <Position>2</Position>
+      <DataType>INT(10)|4</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="55" parent="16" name="nama">
+      <Position>3</Position>
+      <DataType>VARCHAR(50)|12</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="56" parent="16" name="jenis_id">
+      <Position>4</Position>
+      <DataType>INT(10)|4</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="57" parent="16" name="bahan">
+      <Position>5</Position>
+      <DataType>VARCHAR(50)|12</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="58" parent="16" name="harga">
+      <Position>6</Position>
+      <DataType>DOUBLE(22)|8</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="59" parent="16" name="stok">
+      <Position>7</Position>
+      <DataType>INT(10)|4</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <key id="60" parent="16" name="PRIMARY">
+      <NameSurrogate>1</NameSurrogate>
+      <ColNames>id</ColNames>
+      <Primary>1</Primary>
+    </key>
+    <column id="61" parent="17" name="id">
+      <Position>1</Position>
+      <DataType>INT(10)|4</DataType>
+      <NotNull>1</NotNull>
+      <SequenceIdentity>1</SequenceIdentity>
+    </column>
+    <column id="62" parent="17" name="produk_id">
+      <Position>2</Position>
+      <DataType>INT(10)|4</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="63" parent="17" name="diskon">
+      <Position>3</Position>
+      <DataType>INT(10)|4</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="64" parent="17" name="harga_promo">
+      <Position>4</Position>
+      <DataType>DOUBLE(22)|8</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <key id="65" parent="17" name="PRIMARY">
+      <NameSurrogate>1</NameSurrogate>
+      <ColNames>id</ColNames>
+      <Primary>1</Primary>
+    </key>
+    <column id="66" parent="18" name="id">
+      <Position>1</Position>
+      <DataType>INT(10)|4</DataType>
+      <NotNull>1</NotNull>
+      <SequenceIdentity>1</SequenceIdentity>
+    </column>
+    <column id="67" parent="18" name="role">
+      <Position>2</Position>
+      <DataType>VARCHAR(20)|12</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <key id="68" parent="18" name="PRIMARY">
+      <NameSurrogate>1</NameSurrogate>
+      <ColNames>id</ColNames>
+      <Primary>1</Primary>
+    </key>
+    <column id="69" parent="19" name="id">
+      <Position>1</Position>
+      <DataType>INT(10)|4</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="70" parent="19" name="US">
+      <Position>2</Position>
+      <DataType>DOUBLE(22)|8</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="71" parent="19" name="UK">
+      <Position>3</Position>
+      <DataType>DOUBLE(22)|8</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="72" parent="19" name="EU">
+      <Position>4</Position>
+      <DataType>DOUBLE(22)|8</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="73" parent="19" name="CM">
+      <Position>5</Position>
+      <DataType>DOUBLE(22)|8</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="74" parent="19" name="IN">
+      <Position>6</Position>
+      <DataType>DOUBLE(22)|8</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <key id="75" parent="19" name="PRIMARY">
+      <NameSurrogate>1</NameSurrogate>
+      <ColNames>id</ColNames>
+      <Primary>1</Primary>
+    </key>
+    <column id="76" parent="20" name="produk_id">
+      <Position>1</Position>
+      <DataType>INT(10)|4</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="77" parent="20" name="size_id">
+      <Position>2</Position>
+      <DataType>INT(10)|4</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="78" parent="21" name="id">
+      <Position>1</Position>
+      <DataType>INT(10)|4</DataType>
+      <NotNull>1</NotNull>
+      <SequenceIdentity>1</SequenceIdentity>
+    </column>
+    <column id="79" parent="21" name="nama">
+      <Position>2</Position>
+      <DataType>VARCHAR(50)|12</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="80" parent="21" name="username">
+      <Position>3</Position>
+      <DataType>VARCHAR(50)|12</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="81" parent="21" name="email">
+      <Position>4</Position>
+      <DataType>VARCHAR(50)|12</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="82" parent="21" name="password">
+      <Position>5</Position>
+      <DataType>TEXT(65535)|-1</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="83" parent="21" name="alamat">
+      <Position>6</Position>
+      <DataType>TEXT(65535)|-1</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="84" parent="21" name="telp">
+      <Position>7</Position>
+      <DataType>VARCHAR(20)|12</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="85" parent="21" name="foto">
+      <Position>8</Position>
+      <DataType>VARCHAR(100)|12</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <key id="86" parent="21" name="PRIMARY">
+      <NameSurrogate>1</NameSurrogate>
+      <ColNames>id</ColNames>
+      <Primary>1</Primary>
+    </key>
+    <column id="87" parent="22" name="id">
+      <Position>1</Position>
+      <DataType>INT(10)|4</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="88" parent="22" name="warna">
+      <Position>2</Position>
+      <DataType>VARCHAR(20)|12</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <key id="89" parent="22" name="PRIMARY">
+      <NameSurrogate>1</NameSurrogate>
+      <ColNames>id</ColNames>
+      <Primary>1</Primary>
+    </key>
+    <column id="90" parent="23" name="produk_id">
+      <Position>1</Position>
+      <DataType>INT(10)|4</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="91" parent="23" name="warna_id">
+      <Position>2</Position>
+      <DataType>INT(10)|4</DataType>
+      <NotNull>1</NotNull>
+    </column>
+  </database-model>
+</dataSource>
