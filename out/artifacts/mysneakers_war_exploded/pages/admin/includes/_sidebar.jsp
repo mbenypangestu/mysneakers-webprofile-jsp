@@ -23,6 +23,7 @@
     <!-- /.search form -->
     <!-- sidebar menu: : style can be found in sidebar.less -->
     <ul class="sidebar-menu">
+        <li><a href="${pageContext.request.contextPath}/administrator"><i class="fa fa-circle-o text-red"></i> <span>Dashboard</span></a></li>
         <li class="header">Data Master</li>
         <li><a href="${pageContext.request.contextPath}/administrator/artikel"><i class="fa fa-circle-o text-red"></i> <span>Artikel</span></a></li>
         <li><a href="${pageContext.request.contextPath}/administrator/brand"><i class="fa fa-circle-o text-red"></i> <span>Brand</span></a></li>
