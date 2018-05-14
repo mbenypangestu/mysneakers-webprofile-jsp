@@ -31,7 +31,7 @@
                 <div class="col-xs-12">
                     <div class="box">
                         <div class="box-header">
-                            <a href="#" class="btn btn-bitbucket">
+                            <a href="${pageContext.request.contextPath}/administrator/artikel/add" class="btn btn-bitbucket">
                                 <i class="fa fa-plus-circle"></i> Tambah
                             </a>
                         </div>
