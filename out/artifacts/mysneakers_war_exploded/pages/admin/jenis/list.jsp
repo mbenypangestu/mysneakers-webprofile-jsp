@@ -50,10 +50,10 @@
                                     <td>a</td>
                                     <td>b</td>
                                     <td>
-                                        <a href="${pageContext.request.contextPath}/administrator/kategori_produk/edit" class="btn btn-primary">
+                                        <a href="${pageContext.request.contextPath}/administrator/jenis/edit" class="btn btn-primary">
                                             <i class="fa fa-pencil"></i> Edit
                                         </a>
-                                        <a href="${pageContext.request.contextPath}/administrator/kategori_produk/delete" class="btn btn-danger">
+                                        <a href="${pageContext.request.contextPath}/administrator/jenis/delete" class="btn btn-danger">
                                             <i class="fa fa-times"></i> Hapus
                                         </a>
                                     </td>
