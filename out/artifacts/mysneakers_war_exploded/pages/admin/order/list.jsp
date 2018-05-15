@@ -31,7 +31,7 @@
                 <div class="col-xs-12">
                     <div class="box">
                         <div class="box-header">
-                            <a href="#" class="btn btn-bitbucket">
+                            <a href="${pageContext.request.contextPath}/administrator/order/add" class="btn btn-bitbucket">
                                 <i class="fa fa-plus-circle"></i> Tambah
                             </a>
                         </div>
@@ -54,10 +54,10 @@
                                     <td>c</td>
                                     <td>d</td>
                                     <td>
-                                        <a href="${pageContext.request.contextPath}/administrator/kategori_produk/edit" class="btn btn-primary">
+                                        <a href="${pageContext.request.contextPath}/administrator/order/edit" class="btn btn-primary">
                                             <i class="fa fa-pencil"></i> Edit
                                         </a>
-                                        <a href="${pageContext.request.contextPath}/administrator/kategori_produk/delete" class="btn btn-danger">
+                                        <a href="${pageContext.request.contextPath}/administrator/order/delete" class="btn btn-danger">
                                             <i class="fa fa-times"></i> Hapus
                                         </a>
                                     </td>

@@ -1,4 +1,4 @@
-package servlet.admin;
+package servlet.admin.role_user;
 
 import javax.servlet.RequestDispatcher;
 import javax.servlet.ServletException;

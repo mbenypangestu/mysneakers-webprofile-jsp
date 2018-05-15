@@ -1,4 +1,4 @@
-package servlet.admin;
+package servlet.admin.order;
 
 import javax.servlet.RequestDispatcher;
 import javax.servlet.ServletException;
