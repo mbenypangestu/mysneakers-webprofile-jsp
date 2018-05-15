@@ -41,20 +41,14 @@
                                 <thead>
                                 <tr>
                                     <th width="5%">No.</th>
-                                    <th>Browser</th>
-                                    <th>Platform(s)</th>
-                                    <th>Engine version</th>
+                                    <th>Kategori</th>
                                     <th width="15%">#</th>
                                 </tr>
                                 </thead>
                                 <tbody>
                                 <tr>
-                                    <td>Trident</td>
-                                    <td>Internet
-                                        Explorer 4.0
-                                    </td>
-                                    <td>Win 95+</td>
-                                    <td> 4</td>
+                                    <td>a</td>
+                                    <td>b</td>
                                     <td>
                                         <a href="${pageContext.request.contextPath}/administrator/kategori_produk/edit" class="btn btn-primary">
                                             <i class="fa fa-pencil"></i> Edit

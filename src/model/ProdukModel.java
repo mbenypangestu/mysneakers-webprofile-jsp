@@ -13,6 +13,8 @@ public class ProdukModel {
     private String bahan;
     private double harga;
     private int stok;
+    private String deskripsi;
+    private String gambar;
 
     @Id
     @Column(name = "id", nullable = false)
@@ -102,5 +104,25 @@ public class ProdukModel {
     public int hashCode() {
 
         return Objects.hash(id, brandId, nama, jenisId, bahan, harga, stok);
+    }
+
+    @Basic
+    @Column(name = "deskripsi", nullable = false, length = -1)
+    public String getDeskripsi() {
+        return deskripsi;
+    }
+
+    public void setDeskripsi(String deskripsi) {
+        this.deskripsi = deskripsi;
+    }
+
+    @Basic
+    @Column(name = "gambar", nullable = false, length = -1)
+    public String getGambar() {
+        return gambar;
+    }
+
+    public void setGambar(String gambar) {
+        this.gambar = gambar;
     }
 }
