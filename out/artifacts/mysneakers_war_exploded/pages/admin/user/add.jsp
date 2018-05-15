@@ -44,7 +44,7 @@
                                     <label for="nama" class="col-sm-2 control-label">Nama</label>
 
                                     <div class="col-sm-8">
-                                        <input type="text" class="form-control" id="nama" name="nama" placeholder="nama">
+                                        <input type="text" class="form-control" id="nama" name="nama" placeholder="Nama" required>
                                     </div>
                                 </div>
 
@@ -52,7 +52,7 @@
                                     <label for="username" class="col-sm-2 control-label">Username</label>
 
                                     <div class="col-sm-8">
-                                        <input type="text" class="form-control" id="username" name="username" placeholder="Username">
+                                        <input type="text" class="form-control" id="username" name="username" placeholder="Username" required>
                                     </div>
                                 </div>
 
@@ -60,7 +60,7 @@
                                     <label for="email" class="col-sm-2 control-label">Email</label>
 
                                     <div class="col-sm-8">
-                                        <input type="text" class="form-control" id="email" name="email" placeholder="Email">
+                                        <input type="text" class="form-control" id="email" name="email" placeholder="Email" required>
                                     </div>
                                 </div>
 
@@ -68,15 +68,15 @@
                                     <label for="password" class="col-sm-2 control-label">Password</label>
 
                                     <div class="col-sm-8">
-                                        <input type="text" class="form-control" id="password" name="password" placeholder="Password">
+                                        <input type="text" class="form-control" id="password" name="password" placeholder="Password" required>
                                     </div>
                                 </div>
 
                                 <div class="form-group">
-                                    <label for="remembertoken" class="col-sm-2 control-label">Remember_token</label>
+                                    <label for="remember_token" class="col-sm-2 control-label">Remember token</label>
 
                                     <div class="col-sm-8">
-                                        <input type="text" class="form-control" id="remembertoken" name="remembertoken" placeholder="token">
+                                        <input type="text" class="form-control" id="remember_token" name="remember_token" placeholder="token" required>
                                     </div>
                                 </div>
 
@@ -84,7 +84,7 @@
                                     <label for="alamat" class="col-sm-2 control-label">Alamat</label>
 
                                     <div class="col-sm-8">
-                                        <input type="text" class="form-control" id="alamat" name="alamat" placeholder="Alamat">
+                                        <input type="text" class="form-control" id="alamat" name="alamat" placeholder="Alamat" required>
                                     </div>
                                 </div>
 
@@ -92,7 +92,7 @@
                                     <label for="telp" class="col-sm-2 control-label">Telp</label>
 
                                     <div class="col-sm-8">
-                                        <input type="text" class="form-control" id="telp" name="telp" placeholder="Telp">
+                                        <input type="text" class="form-control" id="telp" name="telp" placeholder="Telp" required>
                                     </div>
                                 </div>
 

@@ -41,20 +41,21 @@
                             <div class="box-body pad">
 
                                 <div class="form-group">
-                                    <label for="produkid" class="col-sm-2 control-label">Produk_id</label>
+                                    <label for="produk_id" class="col-sm-2 control-label">Produk_id</label>
 
                                     <div class="col-sm-8">
-                                        <input type="text" class="form-control" id="produkid" name="produkid" placeholder="id">
+                                        <input type="text" class="form-control" id="produk_id" name="produk_id" placeholder="id" required>
                                     </div>
                                 </div>
 
                                 <div class="form-group">
-                                    <label for="warnaid" class="col-sm-2 control-label">Warna id</label>
+                                    <label for="warna_id" class="col-sm-2 control-label">Warna id</label>
 
                                     <div class="col-sm-8">
-                                        <input type="text" class="form-control" id="warnaid" name="warnaid" placeholder="id">
+                                        <input type="text" class="form-control" id="warna_id" name="warna_id" placeholder="id" required>
                                     </div>
                                 </div>
+
                             </div>
 
                             <div class="box-footer">

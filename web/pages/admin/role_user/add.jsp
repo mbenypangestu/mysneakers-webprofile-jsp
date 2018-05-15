@@ -43,7 +43,7 @@
                                     <label for="role" class="col-sm-2 control-label">Role User (*)</label>
 
                                     <div class="col-sm-8">
-                                        <input type="text" class="form-control" id="role" name="role" placeholder="Role User">
+                                        <input type="text" class="form-control" id="role" name="role" placeholder="Role User" required>
                                     </div>
                                 </div>
                             </div>

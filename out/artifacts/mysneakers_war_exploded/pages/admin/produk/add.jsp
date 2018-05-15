@@ -40,10 +40,10 @@
                         <form class="form-horizontal" method="post" action="${pageContext.request.contextPath}/administrator/produk/add">
                             <div class="box-body pad">
                                 <div class="form-group">
-                                    <label for="brandid" class="col-sm-2 control-label">Brand_id</label>
+                                    <label for="brand_id" class="col-sm-2 control-label">Brand_id</label>
 
                                     <div class="col-sm-8">
-                                        <input type="text" class="form-control" id="brandid" name="brandid" placeholder="id">
+                                        <input type="text" class="form-control" id="brand_id" name="brand_id" placeholder="id" required>
                                     </div>
                                 </div>
 
@@ -51,7 +51,7 @@
                                     <label for="nama" class="col-sm-2 control-label">Nama Produk (*)</label>
 
                                     <div class="col-sm-8">
-                                        <input type="text" class="form-control" id="nama" name="nama" placeholder="Nama Produk">
+                                        <input type="text" class="form-control" id="nama" name="nama" placeholder="Nama Produk" required>
                                     </div>
                                 </div>
 
@@ -59,7 +59,7 @@
                                     <label for="deskripsi" class="col-sm-2 control-label">Deskripsi Produk (*)</label>
 
                                     <div class="col-sm-8">
-                                        <input type="text" class="form-control" id="deskripsi" name="deskripsi" placeholder="Deskripsi Produk">
+                                        <input type="text" class="form-control" id="deskripsi" name="deskripsi" placeholder="Deskripsi Produk" required>
                                     </div>
                                 </div>
 
@@ -75,10 +75,10 @@
                                 </div>
 
                                 <div class="form-group">
-                                    <label for="jenisid" class="col-sm-2 control-label">Jenis_id</label>
+                                    <label for="jenis_id" class="col-sm-2 control-label">Jenis id</label>
 
                                     <div class="col-sm-8">
-                                        <input type="text" class="form-control" id="jenisid" name="jenisid" placeholder="id">
+                                        <input type="text" class="form-control" id="jenis_id" name="jenis_id" placeholder="id" required>
                                     </div>
                                 </div>
 
@@ -86,7 +86,7 @@
                                     <label for="bahan" class="col-sm-2 control-label">Bahan</label>
 
                                     <div class="col-sm-8">
-                                        <input type="text" class="form-control" id="bahan" name="bahan" placeholder="bahan produk">
+                                        <input type="text" class="form-control" id="bahan" name="bahan" placeholder="Bsahan Produk" required>
                                     </div>
                                 </div>
 
@@ -94,7 +94,7 @@
                                     <label for="harga" class="col-sm-2 control-label">Harga</label>
 
                                     <div class="col-sm-8">
-                                        <input type="text" class="form-control" id="harga" name="harga" placeholder="harga">
+                                        <input type="text" class="form-control" id="harga" name="harga" placeholder="Harga" required>
                                     </div>
                                 </div>
 
@@ -102,7 +102,7 @@
                                     <label for="stok" class="col-sm-2 control-label">Stok</label>
 
                                     <div class="col-sm-8">
-                                        <input type="text" class="form-control" id="stok" name="stok" placeholder="Stok Produk">
+                                        <input type="text" class="form-control" id="stok" name="stok" placeholder="Stok Produk" required>
                                     </div>
                                 </div>
                             </div>

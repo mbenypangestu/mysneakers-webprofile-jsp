@@ -40,29 +40,18 @@
                         <form class="form-horizontal" method="post" action="${pageContext.request.contextPath}/administrator/notifikasi/add">
                             <div class="box-body pad">
                                 <div class="form-group">
-                                    <label for="judul" class="col-sm-2 control-label">Judul Artikel (*)</label>
+                                    <label for="order_id" class="col-sm-2 control-label">Order id (*)</label>
 
                                     <div class="col-sm-8">
-                                        <input type="text" class="form-control" id="judul" name="judul" placeholder="Judul">
+                                        <input type="text" class="form-control" id="order_id" name="order_id" placeholder="id" required>
                                     </div>
                                 </div>
+
                                 <div class="form-group">
-                                    <label for="konten" class="col-sm-2 control-label">Konten</label>
+                                    <label for="notif" class="col-sm-2 control-label">Notifikasi</label>
 
                                     <div class="col-sm-8">
-                                        <textarea id="konten" name="konten" rows="10" cols="80">
-                                            Tulis artikelmu disini !
-                                        </textarea>
-                                    </div>
-                                </div>
-                                <div class="form-group">
-                                    <label for="gambar" class="col-sm-2 control-label">Gambar</label>
-
-                                    <div class="col-sm-8">
-                                        <input type="file" class="form-control" id="gambar">
-                                    </div>
-                                    <div class="col-sm-8 col-sm-push-2">
-                                        <img src="" id="gambar_preview" width="300px">
+                                        <input type="text" class="form-control" id="notif" name="notif" placeholder="Notifikasi" required>
                                     </div>
                                 </div>
                             </div>

@@ -267,18 +267,18 @@
   <!-- ****** Top Catagory Area Start ****** -->
   <section class="top_catagory_area d-md-flex clearfix">
     <!-- Single Catagory -->
-    <div class="single_catagory_area d-flex align-items-center bg-img" style="background-image: url(img/product-img/AdidasUltimateRacerBlack.PNG);">
+    <div class="single_catagory_area d-flex align-items-center bg-img" style="background-image: url(img/product-img/NikeCortezForestGump.PNG);">
       <div class="catagory-content">
-        <h6>Adidas Ultimate Racer Black</h6>
+        <h6>Nike Cortez Forest Gump</h6>
         <h2>Sale 30%</h2>
         <a href="#" class="btn karl-btn">SHOP NOW</a>
       </div>
     </div>
     <!-- Single Catagory -->
-    <div class="single_catagory_area d-flex align-items-center bg-img" style="background-image: url(img/product-img/NikeAirHuaracheGrey.PNG);">
+    <div class="single_catagory_area d-flex align-items-center bg-img" style="background-image: url(img/product-img/AdidasEQTCushionADV.PNG);">
       <div class="catagory-content">
         <h6>in Shoes excepting the new collection</h6>
-        <h2>Nike Air Huarache Grey</h2>
+        <h2>Adidas EQT Cushion ADV</h2>
         <a href="#" class="btn karl-btn">SHOP NOW</a>
       </div>
     </div>
@@ -299,12 +299,12 @@
               <div class="row">
                 <div class="col-12 col-lg-5">
                   <div class="quickview_pro_img">
-                    <img src="img/product-img/product-1.jpg" alt="">
+                    <img src="img/product-img/sneaker-305322_1280.png" alt="">
                   </div>
                 </div>
                 <div class="col-12 col-lg-7">
                   <div class="quickview_pro_des">
-                    <h4 class="title">Boutique Silk Dress</h4>
+                    <h4 class="title">My Sneakers Sby</h4>
                     <div class="top_seller_product_rating mb-15">
                       <i class="fa fa-star" aria-hidden="true"></i>
                       <i class="fa fa-star" aria-hidden="true"></i>
@@ -372,8 +372,6 @@
         <button class="btn active" data-filter="*">ALL</button>
         <button class="btn" data-filter=".women">WOMAN</button>
         <button class="btn" data-filter=".man">MAN</button>
-        <button class="btn" data-filter=".access">ACCESSORIES</button>
-        <button class="btn" data-filter=".shoes">shoes</button>
         <button class="btn" data-filter=".kids">KIDS</button>
       </div>
     </div>
@@ -385,15 +383,15 @@
         <div class="col-12 col-sm-6 col-md-4 single_gallery_item women wow fadeInUpBig" data-wow-delay="0.2s">
           <!-- Product Image -->
           <div class="product-img">
-            <img src="img/product-img/product-1.jpg" alt="">
+            <img src="img/product-img/AdidasSuperStarOGFrance.PNG" alt="">
             <div class="product-quicview">
               <a href="#" data-toggle="modal" data-target="#quickview"><i class="ti-plus"></i></a>
             </div>
           </div>
           <!-- Product Description -->
           <div class="product-description">
-            <h4 class="product-price">$39.90</h4>
-            <p>Jeans midi cocktail dress</p>
+            <h4 class="product-price">Rp. 500.000</h4>
+            <p>Adidas Superstar OG France</p>
             <!-- Add to Cart -->
             <a href="#" class="add-to-cart-btn">ADD TO CART</a>
           </div>
@@ -403,51 +401,51 @@
         <div class="col-12 col-sm-6 col-md-4 single_gallery_item women wow fadeInUpBig" data-wow-delay="0.3s">
           <!-- Product Image -->
           <div class="product-img">
-            <img src="img/product-img/product-2.jpg" alt="">
+            <img src="img/product-img/AdidasStanSmithMeshBlue.PNG" alt="">
             <div class="product-quicview">
               <a href="#" data-toggle="modal" data-target="#quickview"><i class="ti-plus"></i></a>
             </div>
           </div>
           <!-- Product Description -->
           <div class="product-description">
-            <h4 class="product-price">$39.90</h4>
-            <p>Jeans midi cocktail dress</p>
+            <h4 class="product-price">Rp. 850.000</h4>
+            <p>Adidas Stan Smith Mesh Blue</p>
             <!-- Add to Cart -->
             <a href="#" class="add-to-cart-btn">ADD TO CART</a>
           </div>
         </div>
 
         <!-- Single gallery Item Start -->
-        <div class="col-12 col-sm-6 col-md-4 single_gallery_item access wow fadeInUpBig" data-wow-delay="0.4s">
+        <div class="col-12 col-sm-6 col-md-4 single_gallery_item man wow fadeInUpBig" data-wow-delay="0.4s">
           <!-- Product Image -->
           <div class="product-img">
-            <img src="img/product-img/product-3.jpg" alt="">
+            <img src="img/product-img/AdidasSwiftRunBlackGreen.PNG" alt="">
             <div class="product-quicview">
               <a href="#" data-toggle="modal" data-target="#quickview"><i class="ti-plus"></i></a>
             </div>
           </div>
           <!-- Product Description -->
           <div class="product-description">
-            <h4 class="product-price">$39.90</h4>
-            <p>Jeans midi cocktail dress</p>
+            <h4 class="product-price">Rp. 1.000.000</h4>
+            <p>Adidas Swift Run Black Green</p>
             <!-- Add to Cart -->
             <a href="#" class="add-to-cart-btn">ADD TO CART</a>
           </div>
         </div>
 
         <!-- Single gallery Item Start -->
-        <div class="col-12 col-sm-6 col-md-4 single_gallery_item shoes wow fadeInUpBig" data-wow-delay="0.5s">
+        <div class="col-12 col-sm-6 col-md-4 single_gallery_item man wow fadeInUpBig" data-wow-delay="0.5s">
           <!-- Product Image -->
           <div class="product-img">
-            <img src="img/product-img/product-4.jpg" alt="">
+            <img src="img/product-img/AdidasNeoAdvantageListPink.PNG" alt="">
             <div class="product-quicview">
               <a href="#" data-toggle="modal" data-target="#quickview"><i class="ti-plus"></i></a>
             </div>
           </div>
           <!-- Product Description -->
           <div class="product-description">
-            <h4 class="product-price">$39.90</h4>
-            <p>Jeans midi cocktail dress</p>
+            <h4 class="product-price">Rp. 330.000</h4>
+            <p>Adidas Neo Advantage List Pink</p>
             <!-- Add to Cart -->
             <a href="#" class="add-to-cart-btn">ADD TO CART</a>
           </div>
@@ -457,15 +455,15 @@
         <div class="col-12 col-sm-6 col-md-4 single_gallery_item women wow fadeInUpBig" data-wow-delay="0.6s">
           <!-- Product Image -->
           <div class="product-img">
-            <img src="img/product-img/product-5.jpg" alt="">
+            <img src="img/product-img/NikeCortezBlackWhite.PNG" alt="">
             <div class="product-quicview">
               <a href="#" data-toggle="modal" data-target="#quickview"><i class="ti-plus"></i></a>
             </div>
           </div>
           <!-- Product Description -->
           <div class="product-description">
-            <h4 class="product-price">$39.90</h4>
-            <p>Jeans midi cocktail dress</p>
+            <h4 class="product-price">Rp. 600.000</h4>
+            <p>Nike Cortez Black White</p>
             <!-- Add to Cart -->
             <a href="#" class="add-to-cart-btn">ADD TO CART</a>
           </div>
@@ -475,15 +473,15 @@
         <div class="col-12 col-sm-6 col-md-4 single_gallery_item kids man wow fadeInUpBig" data-wow-delay="0.7s">
           <!-- Product Image -->
           <div class="product-img">
-            <img src="img/product-img/product-6.jpg" alt="">
+            <img src="img/product-img/AdidasZXFlux.PNG" alt="">
             <div class="product-quicview">
               <a href="#" data-toggle="modal" data-target="#quickview"><i class="ti-plus"></i></a>
             </div>
           </div>
           <!-- Product Description -->
           <div class="product-description">
-            <h4 class="product-price">$39.90</h4>
-            <p>Jeans midi cocktail dress</p>
+            <h4 class="product-price">Rp. 950.000</h4>
+            <p>Adidas ZX Flux</p>
             <!-- Add to Cart -->
             <a href="#" class="add-to-cart-btn">ADD TO CART</a>
           </div>
@@ -520,12 +518,9 @@
         <div class="col-12 col-md-6 col-lg-3">
           <div class="single_footer_area">
             <div class="footer-logo">
-              <img src="img/core-img/logo.png" alt="">
+              <img src="img/logo-img/logo2.jpg" alt="">
             </div>
             <div class="copywrite_text d-flex align-items-center">
-              <p><!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
-                Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved | This template is made with <i class="fa fa-heart-o" aria-hidden="true"></i> by <a href="https://colorlib.com" target="_blank">Colorlib</a>
-                <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. --></p>
             </div>
           </div>
         </div>

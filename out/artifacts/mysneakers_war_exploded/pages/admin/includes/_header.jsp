@@ -28,7 +28,7 @@
                             <li><!-- start message -->
                                 <a href="#">
                                     <div class="pull-left">
-                                        <img src="/admin/dist/img/user2-160x160.jpg" class="img-circle" alt="User Image">
+                                        <img src="/admin/dist/img/sneaker-305322_1280.png" class="img-circle" alt="User Image">
                                     </div>
                                     <h4>
                                         Support Team
