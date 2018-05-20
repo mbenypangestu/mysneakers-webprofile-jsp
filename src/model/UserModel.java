@@ -14,6 +14,21 @@ public class UserModel {
     private String alamat;
     private String telp;
     private String foto;
+    private String rememberToken;
+
+    public UserModel() {
+    }
+
+    public UserModel(String nama, String username, String email, String password,
+                     String alamat, String telp, String foto) {
+        this.nama = nama;
+        this.username = username;
+        this.email = email;
+        this.password = password;
+        this.alamat = alamat;
+        this.telp = telp;
+        this.foto = foto;
+    }
 
     @Id
     @Column(name = "id", nullable = false)
@@ -114,5 +129,15 @@ public class UserModel {
     public int hashCode() {
 
         return Objects.hash(id, nama, username, email, password, alamat, telp, foto);
+    }
+
+    @Basic
+    @Column(name = "remember_token", nullable = false, length = 65535)
+    public String getRememberToken() {
+        return rememberToken;
+    }
+
+    public void setRememberToken(String rememberToken) {
+        this.rememberToken = rememberToken;
     }
 }

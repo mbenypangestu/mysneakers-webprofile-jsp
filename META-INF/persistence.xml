@@ -5,6 +5,8 @@
              version="2.2">
 
     <persistence-unit name="persistenceUnit">
+        <provider>org.eclipse.persistence.jpa.PersistenceProvider</provider>
+
         <class>model.ArtikelModel</class>
         <class>model.BrandModel</class>
         <class>model.DetailOrderModel</class>

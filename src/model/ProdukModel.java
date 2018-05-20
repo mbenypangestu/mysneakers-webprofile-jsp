@@ -107,7 +107,7 @@ public class ProdukModel {
     }
 
     @Basic
-    @Column(name = "deskripsi", nullable = false, length = -1)
+    @Column(name = "deskripsi", nullable = false, length = 65535)
     public String getDeskripsi() {
         return deskripsi;
     }
@@ -117,7 +117,7 @@ public class ProdukModel {
     }
 
     @Basic
-    @Column(name = "gambar", nullable = false, length = -1)
+    @Column(name = "gambar", nullable = false, length = 65535)
     public String getGambar() {
         return gambar;
     }
