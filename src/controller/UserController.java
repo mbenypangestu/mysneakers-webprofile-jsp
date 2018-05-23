@@ -1,6 +1,7 @@
 package controller;
 
 import dao.UserDao;
+import model.User;
 import model.UserModel;
 
 import javax.servlet.ServletException;
@@ -16,7 +17,8 @@ public class UserController {
         String confirm_password = request.getParameter("confirm_password");
 
         UserDao userDao = new UserDao();
-        UserModel user  = new UserModel();
+        User user       = new User();
+
         user.setNama(nama);
         user.setEmail(email);
         user.setPassword(password);
