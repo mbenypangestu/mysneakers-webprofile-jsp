@@ -1,12 +1,17 @@
 package controller;
 
+import config.Variable;
 import dao.UserDao;
 import model.User;
 import model.UserModel;
 
 import javax.servlet.ServletException;
+import javax.servlet.http.Cookie;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
+import javax.servlet.http.HttpSession;
+import java.nio.charset.Charset;
+import java.util.Random;
 
 public class UserController {
 
@@ -23,7 +28,51 @@ public class UserController {
         user.setEmail(email);
         user.setPassword(password);
 
-        userDao.save();
+        if (userDao.save()) {
+            response.addCookie(new Cookie("statusCode", Variable.STATUS_SUCCESS));
+            response.addCookie(new Cookie("message", Variable.SAVE_SUCCESS));
+        } else {
+            response.addCookie(new Cookie("statusCode", Variable.STATUS_SUCCESS));
+            response.addCookie(new Cookie("message", Variable.SAVE_SUCCESS));
+        }
+    }
+
+    public boolean login(HttpServletRequest request, HttpServletResponse response) throws ServletException {
+        HttpSession session     = request.getSession(true);
+        String email            = request.getParameter("email");
+        String password         = request.getParameter("password");
+
+        UserDao userDao = new UserDao();
+        User user       = userDao.findByEmail(email);
+
+        if (user != null && user.getPassword().equals(password)) {
+            user.setRemember_token(Variable.generateRandom());
+            userDao.setTableModel(user);
+            userDao.update(user.getId());
+
+            session.setAttribute("sessionUser", user);
+
+            return true;
+        } else {
+            return false;
+        }
+    }
+
+    public boolean login(String email, String password){
+        UserDao userDao = new UserDao();
+        User user       = userDao.findByEmail(email);
+
+        System.out.println(user.getNama());
+
+        if (user != null && user.getPassword().equals(password)) {
+            user.setRemember_token(Variable.generateRandom());
+            System.out.println(user.getRemember_token());
+            userDao.setTableModel(user);
+            userDao.update(user.getId());
+            return true;
+        } else {
+            return false;
+        }
     }
 
 }

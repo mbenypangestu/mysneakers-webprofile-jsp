@@ -1,3 +1,11 @@
+<%@ page import="config.*" %>
+<%@ page import="controller.*" %>
+<%@ page import="dao.*" %>
+<%@ page import="helper.*" %>
+<%@ page import="model.*" %>
+<%@ page import="servlet.*" %>
+<%@ page import="javax.*" %>
+
 <!-- Logo -->
 <a href="/" class="logo">
     <!-- mini logo for sidebar mini 50x50 pixels -->
@@ -211,7 +219,7 @@
             <li class="dropdown user user-menu">
                 <a href="#" class="dropdown-toggle" data-toggle="dropdown">
                     <img src="/admin/dist/img/user2-160x160.jpg" class="user-image" alt="User Image">
-                    <span class="hidden-xs">Administrator</span>
+                    <span class="hidden-xs">${sessionUser.getNama()}</span>
                 </a>
                 <ul class="dropdown-menu">
                     <!-- User image -->
@@ -219,7 +227,7 @@
                         <img src="/admin/dist/img/user2-160x160.jpg" class="img-circle" alt="User Image">
 
                         <p>
-                            Administrator - Web Developer
+                            ${sessionUser.getNama()} - Web Developer
                             <small>Member since Nov. 2012</small>
                         </p>
                     </li>

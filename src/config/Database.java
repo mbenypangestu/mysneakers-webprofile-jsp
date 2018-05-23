@@ -12,14 +12,7 @@ import java.sql.*;
  *
  * @author dell
  */
-public class Database {
-    private static final String  DRIVER     = "com.mysql.jdbc.Driver";
-    private static final String  HOST       = "localhost";
-    private static final String  DB_NAME    = "mysneakersby";
-    private static final String  USER       = "mygetzu";
-    private static final String  PASS       = "P@ssw0rd|mysql";
-    
-    private static final String  DB_URL     = "jdbc:mysql://" + HOST + ":3306/" + DB_NAME;
+public class Database extends Variable {
 
     protected Connection conn               = null;
     protected Statement statement           = null;
@@ -57,30 +50,30 @@ public class Database {
     }
 
     public void showFailedConnect() {
-        System.out.println("Sorry, Connection Failed !");
+        System.out.println(CONNECT_SUCCESS);
     }
 
     public void showSaveSucceded() {
-        System.out.println("Success saving data !");
+        System.out.println(SAVE_SUCCESS);
     }
 
     public void showSaveFailed() {
-        System.out.println("Failed saving data !");
+        System.out.println(SAVE_FAILED);
     }
 
     public void showEditSucceded() {
-        System.out.println("Success editing data !");
+        System.out.println(EDIT_SUCCESS);
     }
 
     public void showEditFailed() {
-        System.out.println("Failed editing data !");
+        System.out.println(EDIT_FAILED);
     }
 
     public void showDeleteSucceded() {
-        System.out.println("Success deleting data !");
+        System.out.println(DELETE_SUCCESS);
     }
 
     public void showDeleteFailed() {
-        System.out.println("Failed deleting data !");
+        System.out.println(DELETE_FAILED);
     }
 }

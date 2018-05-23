@@ -78,6 +78,30 @@ public class UserDao extends Database implements IBaseDao {
         return this.tableModel;
     }
 
+    public User findByEmail(String email) {
+        try {
+            if (!isConnectionExist()) {
+                showFailedConnect();
+                return null;
+            }
+
+            this.statement  = this.conn.createStatement();
+            this.query      = "SELECT * FROM " + this.tableName + " WHERE email = '" + email + "'";
+            this.resultSet  = statement.executeQuery(this.query);
+
+            if (this.resultSet.first()) {
+                this.tableModel = new User();
+                this.setResultset(this.resultSet, this.tableModel);
+
+                this.resultSet.close();
+            } else return null;
+        } catch (Exception e) {
+            System.out.println(e.getMessage());
+            return null;
+        }
+        return this.tableModel;
+    }
+
     private void setResultset(ResultSet rs, User user) {
         try {
             user.setId(rs.getInt("id"));
