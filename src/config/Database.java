@@ -6,10 +6,7 @@
 package config;
 
 import javax.security.sasl.SaslServer;
-import java.sql.Connection;
-import java.sql.DriverManager;
-import java.sql.SQLException;
-import java.sql.Statement;
+import java.sql.*;
 
 /**
  *
@@ -26,25 +23,28 @@ public class Database {
 
     protected Connection conn               = null;
     protected Statement statement           = null;
+    protected ResultSet resultSet           = null;
     protected String query                  = null;
     protected String tableName              = null;
 
     public Database() {
-        this.connect();
+        this.connectDb();
     }
 
-    public void connect() {
+    public void connectDb() {
         try {
             Class.forName(DRIVER);
             this.conn = DriverManager.getConnection(DB_URL, USER, PASS);
+            System.out.println("Connection Opened !");
         } catch (Exception e) {
             System.out.println(e.getMessage());
         }
     }
 
-    public void disconnect() {
+    public void disconnectDb() {
         try {
             if (this.conn != null) this.conn.close();
+            System.out.println("Connection Closed !");
         } catch (Exception e) {
             System.out.println(e.getMessage());
         }
@@ -54,18 +54,6 @@ public class Database {
         if (this.conn != null)
             return true;
         return false;
-    }
-
-    public Connection getConn() {
-        return conn;
-    }
-
-    public Statement getStatement() {
-        return statement;
-    }
-
-    public String getTableName() {
-        return tableName;
     }
 
     public void showFailedConnect() {
