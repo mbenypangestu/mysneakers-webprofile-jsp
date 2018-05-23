@@ -11,17 +11,20 @@ package model;
  */
 public class User {
     int id;
-    String nama;
-    String username;
-    String email;
-    String password;
-    String remember_token;
-    String alamat;
-    String telp;
-    String foto;
+    String nama             = null;
+    String username         = null;
+    String email            = null;
+    String password         = null;
+    String remember_token   = null;
+    String alamat           = null;
+    String telp             = null;
+    String foto             = null;
 
-    public User(int id, String nama, String username, String email, String password, 
-            String remember_token, String alamat, String telp, String foto) {
+    public User() {
+    }
+
+    public User(int id, String nama, String username, String email, String password,
+                String remember_token, String alamat, String telp, String foto) {
         this.id = id;
         this.nama = nama;
         this.username = username;

@@ -21,7 +21,7 @@ public class UserController {
         user.setEmail(email);
         user.setPassword(password);
 
-        userDao.save(user);
+        userDao.save();
     }
 
 }

@@ -2,7 +2,6 @@ package model;
 
 import javax.persistence.*;
 import java.sql.Timestamp;
-import java.util.Objects;
 
 @Entity
 @Table(name = "order", schema = "mysneakersby", catalog = "")
@@ -67,17 +66,28 @@ public class OrderModel {
     public boolean equals(Object o) {
         if (this == o) return true;
         if (o == null || getClass() != o.getClass()) return false;
+
         OrderModel that = (OrderModel) o;
-        return id == that.id &&
-                Double.compare(that.total, total) == 0 &&
-                statusKirim == that.statusKirim &&
-                statusTerima == that.statusTerima &&
-                Objects.equals(tglOrder, that.tglOrder);
+
+        if (id != that.id) return false;
+        if (Double.compare(that.total, total) != 0) return false;
+        if (statusKirim != that.statusKirim) return false;
+        if (statusTerima != that.statusTerima) return false;
+        if (tglOrder != null ? !tglOrder.equals(that.tglOrder) : that.tglOrder != null) return false;
+
+        return true;
     }
 
     @Override
     public int hashCode() {
-
-        return Objects.hash(id, tglOrder, total, statusKirim, statusTerima);
+        int result;
+        long temp;
+        result = id;
+        result = 31 * result + (tglOrder != null ? tglOrder.hashCode() : 0);
+        temp = Double.doubleToLongBits(total);
+        result = 31 * result + (int) (temp ^ (temp >>> 32));
+        result = 31 * result + statusKirim;
+        result = 31 * result + statusTerima;
+        return result;
     }
 }

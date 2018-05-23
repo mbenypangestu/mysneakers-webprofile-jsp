@@ -16,9 +16,10 @@ public class RegisterServlet extends HttpServlet {
         UserController userController = new UserController();
         try {
             userController.register(request, response);
+            getServletContext().log("Test");
             response.sendRedirect("/administrator");
         } catch (Exception e) {
-            e.printStackTrace();
+            getServletContext().log(e.getMessage());
         }
     }
 

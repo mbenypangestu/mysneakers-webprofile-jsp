@@ -1,7 +1,6 @@
 package model;
 
 import javax.persistence.*;
-import java.util.Objects;
 
 @Entity
 @Table(name = "user", schema = "mysneakersby", catalog = "")
@@ -11,24 +10,10 @@ public class UserModel {
     private String username;
     private String email;
     private String password;
+    private String rememberToken;
     private String alamat;
     private String telp;
     private String foto;
-    private String rememberToken;
-
-    public UserModel() {
-    }
-
-    public UserModel(String nama, String username, String email, String password,
-                     String alamat, String telp, String foto) {
-        this.nama = nama;
-        this.username = username;
-        this.email = email;
-        this.password = password;
-        this.alamat = alamat;
-        this.telp = telp;
-        this.foto = foto;
-    }
 
     @Id
     @Column(name = "id", nullable = false)
@@ -81,6 +66,16 @@ public class UserModel {
     }
 
     @Basic
+    @Column(name = "remember_token", nullable = false, length = 65535)
+    public String getRememberToken() {
+        return rememberToken;
+    }
+
+    public void setRememberToken(String rememberToken) {
+        this.rememberToken = rememberToken;
+    }
+
+    @Basic
     @Column(name = "alamat", nullable = false, length = 65535)
     public String getAlamat() {
         return alamat;
@@ -114,30 +109,34 @@ public class UserModel {
     public boolean equals(Object o) {
         if (this == o) return true;
         if (o == null || getClass() != o.getClass()) return false;
+
         UserModel userModel = (UserModel) o;
-        return id == userModel.id &&
-                Objects.equals(nama, userModel.nama) &&
-                Objects.equals(username, userModel.username) &&
-                Objects.equals(email, userModel.email) &&
-                Objects.equals(password, userModel.password) &&
-                Objects.equals(alamat, userModel.alamat) &&
-                Objects.equals(telp, userModel.telp) &&
-                Objects.equals(foto, userModel.foto);
+
+        if (id != userModel.id) return false;
+        if (nama != null ? !nama.equals(userModel.nama) : userModel.nama != null) return false;
+        if (username != null ? !username.equals(userModel.username) : userModel.username != null) return false;
+        if (email != null ? !email.equals(userModel.email) : userModel.email != null) return false;
+        if (password != null ? !password.equals(userModel.password) : userModel.password != null) return false;
+        if (rememberToken != null ? !rememberToken.equals(userModel.rememberToken) : userModel.rememberToken != null)
+            return false;
+        if (alamat != null ? !alamat.equals(userModel.alamat) : userModel.alamat != null) return false;
+        if (telp != null ? !telp.equals(userModel.telp) : userModel.telp != null) return false;
+        if (foto != null ? !foto.equals(userModel.foto) : userModel.foto != null) return false;
+
+        return true;
     }
 
     @Override
     public int hashCode() {
-
-        return Objects.hash(id, nama, username, email, password, alamat, telp, foto);
-    }
-
-    @Basic
-    @Column(name = "remember_token", nullable = false, length = 65535)
-    public String getRememberToken() {
-        return rememberToken;
-    }
-
-    public void setRememberToken(String rememberToken) {
-        this.rememberToken = rememberToken;
+        int result = id;
+        result = 31 * result + (nama != null ? nama.hashCode() : 0);
+        result = 31 * result + (username != null ? username.hashCode() : 0);
+        result = 31 * result + (email != null ? email.hashCode() : 0);
+        result = 31 * result + (password != null ? password.hashCode() : 0);
+        result = 31 * result + (rememberToken != null ? rememberToken.hashCode() : 0);
+        result = 31 * result + (alamat != null ? alamat.hashCode() : 0);
+        result = 31 * result + (telp != null ? telp.hashCode() : 0);
+        result = 31 * result + (foto != null ? foto.hashCode() : 0);
+        return result;
     }
 }

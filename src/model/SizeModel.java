@@ -1,7 +1,6 @@
 package model;
 
 import javax.persistence.*;
-import java.util.Objects;
 
 @Entity
 @Table(name = "size", schema = "mysneakersby", catalog = "")
@@ -77,18 +76,34 @@ public class SizeModel {
     public boolean equals(Object o) {
         if (this == o) return true;
         if (o == null || getClass() != o.getClass()) return false;
+
         SizeModel sizeModel = (SizeModel) o;
-        return id == sizeModel.id &&
-                Double.compare(sizeModel.us, us) == 0 &&
-                Double.compare(sizeModel.uk, uk) == 0 &&
-                Double.compare(sizeModel.eu, eu) == 0 &&
-                Double.compare(sizeModel.cm, cm) == 0 &&
-                Double.compare(sizeModel.in, in) == 0;
+
+        if (id != sizeModel.id) return false;
+        if (Double.compare(sizeModel.us, us) != 0) return false;
+        if (Double.compare(sizeModel.uk, uk) != 0) return false;
+        if (Double.compare(sizeModel.eu, eu) != 0) return false;
+        if (Double.compare(sizeModel.cm, cm) != 0) return false;
+        if (Double.compare(sizeModel.in, in) != 0) return false;
+
+        return true;
     }
 
     @Override
     public int hashCode() {
-
-        return Objects.hash(id, us, uk, eu, cm, in);
+        int result;
+        long temp;
+        result = id;
+        temp = Double.doubleToLongBits(us);
+        result = 31 * result + (int) (temp ^ (temp >>> 32));
+        temp = Double.doubleToLongBits(uk);
+        result = 31 * result + (int) (temp ^ (temp >>> 32));
+        temp = Double.doubleToLongBits(eu);
+        result = 31 * result + (int) (temp ^ (temp >>> 32));
+        temp = Double.doubleToLongBits(cm);
+        result = 31 * result + (int) (temp ^ (temp >>> 32));
+        temp = Double.doubleToLongBits(in);
+        result = 31 * result + (int) (temp ^ (temp >>> 32));
+        return result;
     }
 }
