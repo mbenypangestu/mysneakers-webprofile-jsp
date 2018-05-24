@@ -15,7 +15,7 @@ import java.util.Random;
 
 public class UserController {
 
-    public void register(HttpServletRequest request, HttpServletResponse response) throws ServletException {
+    public boolean register(HttpServletRequest request, HttpServletResponse response) throws ServletException {
         String nama             = request.getParameter("nama");
         String email            = request.getParameter("email");
         String password         = request.getParameter("password");
@@ -28,12 +28,11 @@ public class UserController {
         user.setEmail(email);
         user.setPassword(password);
 
+        userDao.setTableModel(user);
         if (userDao.save()) {
-            response.addCookie(new Cookie("statusCode", Variable.STATUS_SUCCESS));
-            response.addCookie(new Cookie("message", Variable.SAVE_SUCCESS));
+            return true;
         } else {
-            response.addCookie(new Cookie("statusCode", Variable.STATUS_SUCCESS));
-            response.addCookie(new Cookie("message", Variable.SAVE_SUCCESS));
+            return false;
         }
     }
 

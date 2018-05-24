@@ -97,4 +97,20 @@ public class JenisDao extends Database implements IBaseDao {
     public boolean delete(int id) {
         return false;
     }
+
+    public Jenis getTableModel() {
+        return tableModel;
+    }
+
+    public void setTableModel(Jenis tableModel) {
+        this.tableModel = tableModel;
+    }
+
+    public List<Jenis> getListTableModel() {
+        return listTableModel;
+    }
+
+    public void setListTableModel(List<Jenis> listTableModel) {
+        this.listTableModel = listTableModel;
+    }
 }

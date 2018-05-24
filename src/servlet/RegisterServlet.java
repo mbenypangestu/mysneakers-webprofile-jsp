@@ -15,8 +15,10 @@ public class RegisterServlet extends HttpServlet {
     protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
         UserController userController = new UserController();
         try {
-            userController.register(request, response);
-            response.sendRedirect("/login");
+            if (userController.register(request, response))
+                response.sendRedirect("/login");
+            else
+                response.sendRedirect("/register");
         } catch (Exception e) {
             getServletContext().log(e.getMessage());
         }

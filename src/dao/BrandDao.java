@@ -97,4 +97,20 @@ public class BrandDao extends Database implements IBaseDao {
     public boolean delete(int id) {
         return false;
     }
+
+    public Brand getTableModel() {
+        return tableModel;
+    }
+
+    public void setTableModel(Brand tableModel) {
+        this.tableModel = tableModel;
+    }
+
+    public List<Brand> getListTableModel() {
+        return listTableModel;
+    }
+
+    public void setListTableModel(List<Brand> listTableModel) {
+        this.listTableModel = listTableModel;
+    }
 }
