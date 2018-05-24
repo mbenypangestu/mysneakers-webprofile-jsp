@@ -4,7 +4,6 @@ import javax.persistence.Basic;
 import javax.persistence.Column;
 import javax.persistence.Entity;
 import javax.persistence.Table;
-import java.util.Objects;
 
 @Entity
 @Table(name = "detail_order", schema = "mysneakersby", catalog = "")
@@ -58,16 +57,26 @@ public class DetailOrderModel {
     public boolean equals(Object o) {
         if (this == o) return true;
         if (o == null || getClass() != o.getClass()) return false;
+
         DetailOrderModel that = (DetailOrderModel) o;
-        return orderId == that.orderId &&
-                jumlah == that.jumlah &&
-                produkId == that.produkId &&
-                Double.compare(that.subtotal, subtotal) == 0;
+
+        if (orderId != that.orderId) return false;
+        if (jumlah != that.jumlah) return false;
+        if (produkId != that.produkId) return false;
+        if (Double.compare(that.subtotal, subtotal) != 0) return false;
+
+        return true;
     }
 
     @Override
     public int hashCode() {
-
-        return Objects.hash(orderId, jumlah, produkId, subtotal);
+        int result;
+        long temp;
+        result = orderId;
+        result = 31 * result + jumlah;
+        result = 31 * result + produkId;
+        temp = Double.doubleToLongBits(subtotal);
+        result = 31 * result + (int) (temp ^ (temp >>> 32));
+        return result;
     }
 }

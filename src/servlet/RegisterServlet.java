@@ -1,5 +1,7 @@
 package servlet;
 
+import controller.UserController;
+
 import javax.servlet.RequestDispatcher;
 import javax.servlet.ServletException;
 import javax.servlet.annotation.WebServlet;
@@ -11,7 +13,13 @@ import java.io.IOException;
 @WebServlet(name = "RegisterServlet", urlPatterns = "/register")
 public class RegisterServlet extends HttpServlet {
     protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
-
+        UserController userController = new UserController();
+        try {
+            userController.register(request, response);
+            response.sendRedirect("/login");
+        } catch (Exception e) {
+            getServletContext().log(e.getMessage());
+        }
     }
 
     protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {

@@ -5,27 +5,75 @@
  */
 package config;
 
-import java.sql.Connection;
-import java.sql.DriverManager;
-import java.sql.SQLException;
+import javax.security.sasl.SaslServer;
+import java.sql.*;
 
 /**
  *
  * @author dell
  */
-public class Database {
-    private static final String  DRIVER      = "com.mysql.jdbc.Driver";    
-    private static final String  HOST        = "localhost";
-    private static final String  DB_NAME     = "mysneakersby";
-    private static final String  USER        = "root";
-    private static final String  PASS        = "";
-    
-    private static final String  DB_URL      = "jdbc:mysql://" + HOST + ":3306/" + DB_NAME;
-    
-    public static Connection connect() throws SQLException, ClassCastException, Exception {        
-        Class.forName(DRIVER);
-        Connection conn = DriverManager.getConnection(DRIVER, USER, PASS);
-        
-        return conn;
+public class Database extends Variable {
+
+    protected Connection conn               = null;
+    protected Statement statement           = null;
+    protected ResultSet resultSet           = null;
+    protected String query                  = null;
+    protected String tableName              = null;
+
+    public Database() {
+        this.connectDb();
+    }
+
+    public void connectDb() {
+        try {
+            Class.forName(DRIVER);
+            this.conn = DriverManager.getConnection(DB_URL, USER, PASS);
+            System.out.println("Connection Opened !");
+        } catch (Exception e) {
+            System.out.println(e.getMessage());
+        }
+    }
+
+    public void disconnectDb() {
+        try {
+            if (this.conn != null) this.conn.close();
+            System.out.println("Connection Closed !");
+        } catch (Exception e) {
+            System.out.println(e.getMessage());
+        }
+    }
+
+    public boolean isConnectionExist() {
+        if (this.conn != null)
+            return true;
+        return false;
+    }
+
+    public void showFailedConnect() {
+        System.out.println(CONNECT_SUCCESS);
+    }
+
+    public void showSaveSucceded() {
+        System.out.println(SAVE_SUCCESS);
+    }
+
+    public void showSaveFailed() {
+        System.out.println(SAVE_FAILED);
+    }
+
+    public void showEditSucceded() {
+        System.out.println(EDIT_SUCCESS);
+    }
+
+    public void showEditFailed() {
+        System.out.println(EDIT_FAILED);
+    }
+
+    public void showDeleteSucceded() {
+        System.out.println(DELETE_SUCCESS);
+    }
+
+    public void showDeleteFailed() {
+        System.out.println(DELETE_FAILED);
     }
 }

@@ -1,3 +1,6 @@
+<%@ page import="dao.JenisDao" %>
+<%@ page import="model.Jenis" %>
+<%@ page import="java.util.List" %>
 <!DOCTYPE html>
 <html>
 <head>
@@ -42,22 +45,34 @@
                                 <tr>
                                     <th width="5%">No.</th>
                                     <th>Jenis</th>
-                                    <th width="15%">#</th>
+                                    <th width="17%">#</th>
                                 </tr>
                                 </thead>
                                 <tbody>
+                                    <%
+                                    JenisDao jenisDao   = new JenisDao();
+
+                                    List<Jenis> jenisList = jenisDao.findAll();
+
+                                    int i = 1;
+                                    for (Jenis jenis : jenisList) {
+                                %>
                                 <tr>
-                                    <td>a</td>
-                                    <td>b</td>
+                                    <td><%= i %></td>
+                                    <td><%= jenis.getJenis() %></td>
                                     <td>
-                                        <a href="${pageContext.request.contextPath}/administrator/jenis/edit" class="btn btn-primary">
+                                        <a href="${pageContext.request.contextPath}/administrator/brand/edit?id=<%= jenis.getId() %>" class="btn btn-primary">
                                             <i class="fa fa-pencil"></i> Edit
                                         </a>
-                                        <a href="${pageContext.request.contextPath}/administrator/jenis/delete" class="btn btn-danger">
+                                        <a href="${pageContext.request.contextPath}/administrator/brand/delete?id=<%= jenis.getId() %>" class="btn btn-danger">
                                             <i class="fa fa-times"></i> Hapus
                                         </a>
                                     </td>
                                 </tr>
+                                    <%
+                                        i++;
+                                    }
+                                %>
                                 </tfoot>
                             </table>
                         </div>

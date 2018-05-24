@@ -7,6 +7,18 @@
         <element id="directory" name="classes">
           <element id="module-output" name="mysneakers" />
         </element>
+        <element id="directory" name="lib">
+          <element id="file-copy" path="$PROJECT_DIR$/../../Library/javax.persistence.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/lib/javax.persistence.jar" />
+          <element id="library" level="project" name="eclipselink" />
+          <element id="library" level="project" name="mariadb-java-client-2.2.3" />
+          <element id="library" level="project" name="lib" />
+          <element id="library" level="project" name="mysql-connector-java-5.1.46" />
+          <element id="library" level="project" name="jaxb-api-2.3.0" />
+          <element id="library" level="project" name="jaxb-core-2.3.0" />
+          <element id="library" level="project" name="jaxb-impl-2.3.0" />
+          <element id="library" level="project" name="javax.activation-1.2.0" />
+        </element>
       </element>
     </root>
   </artifact>

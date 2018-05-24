@@ -5,13 +5,18 @@
  */
 package model;
 
+import java.io.Serializable;
+
 /**
  *
  * @author dell
  */
-public class Jenis {
+public class Jenis implements Serializable {
     int id;
     String jenis;
+
+    public Jenis() {
+    }
 
     public Jenis(int id, String jenis) {
         this.id = id;

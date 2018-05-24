@@ -1,7 +1,6 @@
 package model;
 
 import javax.persistence.*;
-import java.util.Objects;
 
 @Entity
 @Table(name = "kategori_produk", schema = "mysneakersby", catalog = "")
@@ -33,14 +32,19 @@ public class KategoriProdukModel {
     public boolean equals(Object o) {
         if (this == o) return true;
         if (o == null || getClass() != o.getClass()) return false;
+
         KategoriProdukModel that = (KategoriProdukModel) o;
-        return id == that.id &&
-                Objects.equals(kategori, that.kategori);
+
+        if (id != that.id) return false;
+        if (kategori != null ? !kategori.equals(that.kategori) : that.kategori != null) return false;
+
+        return true;
     }
 
     @Override
     public int hashCode() {
-
-        return Objects.hash(id, kategori);
+        int result = id;
+        result = 31 * result + (kategori != null ? kategori.hashCode() : 0);
+        return result;
     }
 }

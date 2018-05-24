@@ -2,7 +2,6 @@ package model;
 
 import javax.persistence.*;
 import java.sql.Timestamp;
-import java.util.Objects;
 
 @Entity
 @Table(name = "artikel", schema = "mysneakersby", catalog = "")
@@ -67,17 +66,25 @@ public class ArtikelModel {
     public boolean equals(Object o) {
         if (this == o) return true;
         if (o == null || getClass() != o.getClass()) return false;
+
         ArtikelModel that = (ArtikelModel) o;
-        return id == that.id &&
-                Objects.equals(judul, that.judul) &&
-                Objects.equals(konten, that.konten) &&
-                Objects.equals(gambar, that.gambar) &&
-                Objects.equals(tglPos, that.tglPos);
+
+        if (id != that.id) return false;
+        if (judul != null ? !judul.equals(that.judul) : that.judul != null) return false;
+        if (konten != null ? !konten.equals(that.konten) : that.konten != null) return false;
+        if (gambar != null ? !gambar.equals(that.gambar) : that.gambar != null) return false;
+        if (tglPos != null ? !tglPos.equals(that.tglPos) : that.tglPos != null) return false;
+
+        return true;
     }
 
     @Override
     public int hashCode() {
-
-        return Objects.hash(id, judul, konten, gambar, tglPos);
+        int result = id;
+        result = 31 * result + (judul != null ? judul.hashCode() : 0);
+        result = 31 * result + (konten != null ? konten.hashCode() : 0);
+        result = 31 * result + (gambar != null ? gambar.hashCode() : 0);
+        result = 31 * result + (tglPos != null ? tglPos.hashCode() : 0);
+        return result;
     }
 }

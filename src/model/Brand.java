@@ -5,13 +5,18 @@
  */
 package model;
 
+import java.io.Serializable;
+
 /**
  *
  * @author dell
  */
-public class Brand {
+public class Brand implements Serializable {
     int id;
     String nama;
+
+    public Brand() {
+    }
 
     public Brand(int id, String nama) {
         this.id = id;

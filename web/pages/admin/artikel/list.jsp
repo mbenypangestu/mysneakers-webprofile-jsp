@@ -45,7 +45,7 @@
                                     <th>Konten</th>
                                     <th>Gambar</th>
                                     <th>Tgl_pos</th>
-                                    <th width="15%">#</th>
+                                    <th width="17%">#</th>
                                 </tr>
                                 </thead>
                                 <tbody>
