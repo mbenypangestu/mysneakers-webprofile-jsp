@@ -7,27 +7,174 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="28cee12e-8d90-48b5-a8eb-3a5e8abb3a8b" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/.gitignore" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/controller/ProdukController.java" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" afterPath="$PROJECT_DIR$/.gitignore" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change beforePath="$PROJECT_DIR$/WEB-INF/web.xml" afterPath="$PROJECT_DIR$/WEB-INF/web.xml" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/mysneakers_war_exploded/WEB-INF/classes/config/Database.class" afterPath="$PROJECT_DIR$/out/artifacts/mysneakers_war_exploded/WEB-INF/classes/config/Database.class" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/mysneakers_war_exploded/WEB-INF/classes/config/Variable.class" afterPath="$PROJECT_DIR$/out/artifacts/mysneakers_war_exploded/WEB-INF/classes/config/Variable.class" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/mysneakers_war_exploded/WEB-INF/classes/controller/ProdukController.class" afterPath="$PROJECT_DIR$/out/artifacts/mysneakers_war_exploded/WEB-INF/classes/controller/ProdukController.class" />
       <change beforePath="$PROJECT_DIR$/out/artifacts/mysneakers_war_exploded/WEB-INF/classes/controller/UserController.class" afterPath="$PROJECT_DIR$/out/artifacts/mysneakers_war_exploded/WEB-INF/classes/controller/UserController.class" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/mysneakers_war_exploded/WEB-INF/classes/dao/BrandDao.class" afterPath="$PROJECT_DIR$/out/artifacts/mysneakers_war_exploded/WEB-INF/classes/dao/BrandDao.class" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/mysneakers_war_exploded/WEB-INF/classes/dao/JenisDao.class" afterPath="$PROJECT_DIR$/out/artifacts/mysneakers_war_exploded/WEB-INF/classes/dao/JenisDao.class" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/mysneakers_war_exploded/WEB-INF/classes/dao/ProdukDao.class" afterPath="$PROJECT_DIR$/out/artifacts/mysneakers_war_exploded/WEB-INF/classes/dao/ProdukDao.class" />
       <change beforePath="$PROJECT_DIR$/out/artifacts/mysneakers_war_exploded/WEB-INF/classes/dao/UserDao.class" afterPath="$PROJECT_DIR$/out/artifacts/mysneakers_war_exploded/WEB-INF/classes/dao/UserDao.class" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/mysneakers_war_exploded/WEB-INF/classes/helper/IBaseDao.class" afterPath="$PROJECT_DIR$/out/artifacts/mysneakers_war_exploded/WEB-INF/classes/helper/IBaseDao.class" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/mysneakers_war_exploded/WEB-INF/classes/model/Artikel.class" afterPath="$PROJECT_DIR$/out/artifacts/mysneakers_war_exploded/WEB-INF/classes/model/Artikel.class" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/mysneakers_war_exploded/WEB-INF/classes/model/ArtikelModel.class" afterPath="$PROJECT_DIR$/out/artifacts/mysneakers_war_exploded/WEB-INF/classes/model/ArtikelModel.class" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/mysneakers_war_exploded/WEB-INF/classes/model/Brand.class" afterPath="$PROJECT_DIR$/out/artifacts/mysneakers_war_exploded/WEB-INF/classes/model/Brand.class" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/mysneakers_war_exploded/WEB-INF/classes/model/BrandModel.class" afterPath="$PROJECT_DIR$/out/artifacts/mysneakers_war_exploded/WEB-INF/classes/model/BrandModel.class" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/mysneakers_war_exploded/WEB-INF/classes/model/DetailOrder.class" afterPath="$PROJECT_DIR$/out/artifacts/mysneakers_war_exploded/WEB-INF/classes/model/DetailOrder.class" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/mysneakers_war_exploded/WEB-INF/classes/model/DetailOrderModel.class" afterPath="$PROJECT_DIR$/out/artifacts/mysneakers_war_exploded/WEB-INF/classes/model/DetailOrderModel.class" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/mysneakers_war_exploded/WEB-INF/classes/model/Jenis.class" afterPath="$PROJECT_DIR$/out/artifacts/mysneakers_war_exploded/WEB-INF/classes/model/Jenis.class" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/mysneakers_war_exploded/WEB-INF/classes/model/JenisModel.class" afterPath="$PROJECT_DIR$/out/artifacts/mysneakers_war_exploded/WEB-INF/classes/model/JenisModel.class" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/mysneakers_war_exploded/WEB-INF/classes/model/KategoriProduk.class" afterPath="$PROJECT_DIR$/out/artifacts/mysneakers_war_exploded/WEB-INF/classes/model/KategoriProduk.class" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/mysneakers_war_exploded/WEB-INF/classes/model/KategoriProdukModel.class" afterPath="$PROJECT_DIR$/out/artifacts/mysneakers_war_exploded/WEB-INF/classes/model/KategoriProdukModel.class" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/mysneakers_war_exploded/WEB-INF/classes/model/Notifikasi.class" afterPath="$PROJECT_DIR$/out/artifacts/mysneakers_war_exploded/WEB-INF/classes/model/Notifikasi.class" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/mysneakers_war_exploded/WEB-INF/classes/model/NotifikasiModel.class" afterPath="$PROJECT_DIR$/out/artifacts/mysneakers_war_exploded/WEB-INF/classes/model/NotifikasiModel.class" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/mysneakers_war_exploded/WEB-INF/classes/model/Order.class" afterPath="$PROJECT_DIR$/out/artifacts/mysneakers_war_exploded/WEB-INF/classes/model/Order.class" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/mysneakers_war_exploded/WEB-INF/classes/model/OrderModel.class" afterPath="$PROJECT_DIR$/out/artifacts/mysneakers_war_exploded/WEB-INF/classes/model/OrderModel.class" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/mysneakers_war_exploded/WEB-INF/classes/model/Produk.class" afterPath="$PROJECT_DIR$/out/artifacts/mysneakers_war_exploded/WEB-INF/classes/model/Produk.class" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/mysneakers_war_exploded/WEB-INF/classes/model/ProdukModel.class" afterPath="$PROJECT_DIR$/out/artifacts/mysneakers_war_exploded/WEB-INF/classes/model/ProdukModel.class" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/mysneakers_war_exploded/WEB-INF/classes/model/PromoProduk.class" afterPath="$PROJECT_DIR$/out/artifacts/mysneakers_war_exploded/WEB-INF/classes/model/PromoProduk.class" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/mysneakers_war_exploded/WEB-INF/classes/model/PromoProdukModel.class" afterPath="$PROJECT_DIR$/out/artifacts/mysneakers_war_exploded/WEB-INF/classes/model/PromoProdukModel.class" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/mysneakers_war_exploded/WEB-INF/classes/model/RoleUser.class" afterPath="$PROJECT_DIR$/out/artifacts/mysneakers_war_exploded/WEB-INF/classes/model/RoleUser.class" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/mysneakers_war_exploded/WEB-INF/classes/model/RoleUserModel.class" afterPath="$PROJECT_DIR$/out/artifacts/mysneakers_war_exploded/WEB-INF/classes/model/RoleUserModel.class" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/mysneakers_war_exploded/WEB-INF/classes/model/Size.class" afterPath="$PROJECT_DIR$/out/artifacts/mysneakers_war_exploded/WEB-INF/classes/model/Size.class" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/mysneakers_war_exploded/WEB-INF/classes/model/SizeModel.class" afterPath="$PROJECT_DIR$/out/artifacts/mysneakers_war_exploded/WEB-INF/classes/model/SizeModel.class" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/mysneakers_war_exploded/WEB-INF/classes/model/SizeProduk.class" afterPath="$PROJECT_DIR$/out/artifacts/mysneakers_war_exploded/WEB-INF/classes/model/SizeProduk.class" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/mysneakers_war_exploded/WEB-INF/classes/model/SizeProdukModel.class" afterPath="$PROJECT_DIR$/out/artifacts/mysneakers_war_exploded/WEB-INF/classes/model/SizeProdukModel.class" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/mysneakers_war_exploded/WEB-INF/classes/model/User.class" afterPath="$PROJECT_DIR$/out/artifacts/mysneakers_war_exploded/WEB-INF/classes/model/User.class" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/mysneakers_war_exploded/WEB-INF/classes/model/UserModel.class" afterPath="$PROJECT_DIR$/out/artifacts/mysneakers_war_exploded/WEB-INF/classes/model/UserModel.class" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/mysneakers_war_exploded/WEB-INF/classes/model/Warna.class" afterPath="$PROJECT_DIR$/out/artifacts/mysneakers_war_exploded/WEB-INF/classes/model/Warna.class" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/mysneakers_war_exploded/WEB-INF/classes/model/WarnaModel.class" afterPath="$PROJECT_DIR$/out/artifacts/mysneakers_war_exploded/WEB-INF/classes/model/WarnaModel.class" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/mysneakers_war_exploded/WEB-INF/classes/model/WarnaProduk.class" afterPath="$PROJECT_DIR$/out/artifacts/mysneakers_war_exploded/WEB-INF/classes/model/WarnaProduk.class" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/mysneakers_war_exploded/WEB-INF/classes/model/WarnaProdukModel.class" afterPath="$PROJECT_DIR$/out/artifacts/mysneakers_war_exploded/WEB-INF/classes/model/WarnaProdukModel.class" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/mysneakers_war_exploded/WEB-INF/classes/servlet/LoginServlet.class" afterPath="$PROJECT_DIR$/out/artifacts/mysneakers_war_exploded/WEB-INF/classes/servlet/LoginServlet.class" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/mysneakers_war_exploded/WEB-INF/classes/servlet/LogoutServlet.class" afterPath="$PROJECT_DIR$/out/artifacts/mysneakers_war_exploded/WEB-INF/classes/servlet/LogoutServlet.class" />
       <change beforePath="$PROJECT_DIR$/out/artifacts/mysneakers_war_exploded/WEB-INF/classes/servlet/RegisterServlet.class" afterPath="$PROJECT_DIR$/out/artifacts/mysneakers_war_exploded/WEB-INF/classes/servlet/RegisterServlet.class" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/mysneakers_war_exploded/pages/admin/produk/list.jsp" afterPath="$PROJECT_DIR$/out/artifacts/mysneakers_war_exploded/pages/admin/produk/list.jsp" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/mysneakers_war_exploded/WEB-INF/classes/servlet/ServletTest.class" afterPath="$PROJECT_DIR$/out/artifacts/mysneakers_war_exploded/WEB-INF/classes/servlet/ServletTest.class" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/mysneakers_war_exploded/WEB-INF/classes/servlet/admin/HomeAdminServlet.class" afterPath="$PROJECT_DIR$/out/artifacts/mysneakers_war_exploded/WEB-INF/classes/servlet/admin/HomeAdminServlet.class" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/mysneakers_war_exploded/WEB-INF/classes/servlet/admin/JenisServlet.class" afterPath="$PROJECT_DIR$/out/artifacts/mysneakers_war_exploded/WEB-INF/classes/servlet/admin/JenisServlet.class" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/mysneakers_war_exploded/WEB-INF/classes/servlet/admin/artikel/AddArtikelServlet.class" afterPath="$PROJECT_DIR$/out/artifacts/mysneakers_war_exploded/WEB-INF/classes/servlet/admin/artikel/AddArtikelServlet.class" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/mysneakers_war_exploded/WEB-INF/classes/servlet/admin/artikel/ArtikelServlet.class" afterPath="$PROJECT_DIR$/out/artifacts/mysneakers_war_exploded/WEB-INF/classes/servlet/admin/artikel/ArtikelServlet.class" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/mysneakers_war_exploded/WEB-INF/classes/servlet/admin/brand/AddBrandServlet.class" afterPath="$PROJECT_DIR$/out/artifacts/mysneakers_war_exploded/WEB-INF/classes/servlet/admin/brand/AddBrandServlet.class" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/mysneakers_war_exploded/WEB-INF/classes/servlet/admin/brand/BrandServlet.class" afterPath="$PROJECT_DIR$/out/artifacts/mysneakers_war_exploded/WEB-INF/classes/servlet/admin/brand/BrandServlet.class" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/mysneakers_war_exploded/WEB-INF/classes/servlet/admin/kategori_produk/AddKategoriProdukServlet.class" afterPath="$PROJECT_DIR$/out/artifacts/mysneakers_war_exploded/WEB-INF/classes/servlet/admin/kategori_produk/AddKategoriProdukServlet.class" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/mysneakers_war_exploded/WEB-INF/classes/servlet/admin/kategori_produk/KategoriProdukServlet.class" afterPath="$PROJECT_DIR$/out/artifacts/mysneakers_war_exploded/WEB-INF/classes/servlet/admin/kategori_produk/KategoriProdukServlet.class" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/mysneakers_war_exploded/WEB-INF/classes/servlet/admin/notifikasi/AddNotifikasiServlet.class" afterPath="$PROJECT_DIR$/out/artifacts/mysneakers_war_exploded/WEB-INF/classes/servlet/admin/notifikasi/AddNotifikasiServlet.class" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/mysneakers_war_exploded/WEB-INF/classes/servlet/admin/notifikasi/NotifikasiServlet.class" afterPath="$PROJECT_DIR$/out/artifacts/mysneakers_war_exploded/WEB-INF/classes/servlet/admin/notifikasi/NotifikasiServlet.class" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/mysneakers_war_exploded/WEB-INF/classes/servlet/admin/order/AddOrderServlet.class" afterPath="$PROJECT_DIR$/out/artifacts/mysneakers_war_exploded/WEB-INF/classes/servlet/admin/order/AddOrderServlet.class" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/mysneakers_war_exploded/WEB-INF/classes/servlet/admin/order/OrderServlet.class" afterPath="$PROJECT_DIR$/out/artifacts/mysneakers_war_exploded/WEB-INF/classes/servlet/admin/order/OrderServlet.class" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/mysneakers_war_exploded/WEB-INF/classes/servlet/admin/produk/AddProdukServlet.class" afterPath="$PROJECT_DIR$/out/artifacts/mysneakers_war_exploded/WEB-INF/classes/servlet/admin/produk/AddProdukServlet.class" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/mysneakers_war_exploded/WEB-INF/classes/servlet/admin/produk/ProdukServlet.class" afterPath="$PROJECT_DIR$/out/artifacts/mysneakers_war_exploded/WEB-INF/classes/servlet/admin/produk/ProdukServlet.class" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/mysneakers_war_exploded/WEB-INF/classes/servlet/admin/promo_produk/AddPromoProdukServlet.class" afterPath="$PROJECT_DIR$/out/artifacts/mysneakers_war_exploded/WEB-INF/classes/servlet/admin/promo_produk/AddPromoProdukServlet.class" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/mysneakers_war_exploded/WEB-INF/classes/servlet/admin/promo_produk/PromoProdukServlet.class" afterPath="$PROJECT_DIR$/out/artifacts/mysneakers_war_exploded/WEB-INF/classes/servlet/admin/promo_produk/PromoProdukServlet.class" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/mysneakers_war_exploded/WEB-INF/classes/servlet/admin/role_user/AddRoleUserServlet.class" afterPath="$PROJECT_DIR$/out/artifacts/mysneakers_war_exploded/WEB-INF/classes/servlet/admin/role_user/AddRoleUserServlet.class" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/mysneakers_war_exploded/WEB-INF/classes/servlet/admin/role_user/RoleUserServlet.class" afterPath="$PROJECT_DIR$/out/artifacts/mysneakers_war_exploded/WEB-INF/classes/servlet/admin/role_user/RoleUserServlet.class" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/mysneakers_war_exploded/WEB-INF/classes/servlet/admin/size_produk/AddSizeProdukServlet.class" afterPath="$PROJECT_DIR$/out/artifacts/mysneakers_war_exploded/WEB-INF/classes/servlet/admin/size_produk/AddSizeProdukServlet.class" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/mysneakers_war_exploded/WEB-INF/classes/servlet/admin/size_produk/SizeProdukServlet.class" afterPath="$PROJECT_DIR$/out/artifacts/mysneakers_war_exploded/WEB-INF/classes/servlet/admin/size_produk/SizeProdukServlet.class" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/mysneakers_war_exploded/WEB-INF/classes/servlet/admin/user/AddUserServlet.class" afterPath="$PROJECT_DIR$/out/artifacts/mysneakers_war_exploded/WEB-INF/classes/servlet/admin/user/AddUserServlet.class" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/mysneakers_war_exploded/WEB-INF/classes/servlet/admin/user/UserServlet.class" afterPath="$PROJECT_DIR$/out/artifacts/mysneakers_war_exploded/WEB-INF/classes/servlet/admin/user/UserServlet.class" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/mysneakers_war_exploded/WEB-INF/classes/servlet/admin/warna/AddWarnaServlet.class" afterPath="$PROJECT_DIR$/out/artifacts/mysneakers_war_exploded/WEB-INF/classes/servlet/admin/warna/AddWarnaServlet.class" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/mysneakers_war_exploded/WEB-INF/classes/servlet/admin/warna/WarnaServlet.class" afterPath="$PROJECT_DIR$/out/artifacts/mysneakers_war_exploded/WEB-INF/classes/servlet/admin/warna/WarnaServlet.class" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/mysneakers_war_exploded/WEB-INF/classes/servlet/admin/warna_produk/AddWarnaProdukServlet.class" afterPath="$PROJECT_DIR$/out/artifacts/mysneakers_war_exploded/WEB-INF/classes/servlet/admin/warna_produk/AddWarnaProdukServlet.class" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/mysneakers_war_exploded/WEB-INF/classes/servlet/admin/warna_produk/WarnaProdukServlet.class" afterPath="$PROJECT_DIR$/out/artifacts/mysneakers_war_exploded/WEB-INF/classes/servlet/admin/warna_produk/WarnaProdukServlet.class" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/mysneakers_war_exploded/WEB-INF/classes/test/Test.class" afterPath="$PROJECT_DIR$/out/artifacts/mysneakers_war_exploded/WEB-INF/classes/test/Test.class" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/mysneakers_war_exploded/WEB-INF/classes/utils/MyUtils.class" afterPath="$PROJECT_DIR$/out/artifacts/mysneakers_war_exploded/WEB-INF/classes/utils/MyUtils.class" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/mysneakers_war_exploded/WEB-INF/lib/javax.activation-1.2.0.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/mysneakers_war_exploded/WEB-INF/lib/jaxb-api-2.3.0.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/mysneakers_war_exploded/WEB-INF/lib/jaxb-core-2.3.0.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/mysneakers_war_exploded/WEB-INF/lib/jaxb-impl-2.3.0.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/mysneakers_war_exploded/WEB-INF/web.xml" afterPath="$PROJECT_DIR$/out/artifacts/mysneakers_war_exploded/WEB-INF/web.xml" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/mysneakers_war_exploded/pages/admin/artikel/edit.jsp" afterPath="$PROJECT_DIR$/out/artifacts/mysneakers_war_exploded/pages/admin/artikel/edit.jsp" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/mysneakers_war_exploded/pages/admin/brand/edit.jsp" afterPath="$PROJECT_DIR$/out/artifacts/mysneakers_war_exploded/pages/admin/brand/edit.jsp" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/mysneakers_war_exploded/pages/admin/kategori_produk/edit.jsp" afterPath="$PROJECT_DIR$/out/artifacts/mysneakers_war_exploded/pages/admin/kategori_produk/edit.jsp" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/mysneakers_war_exploded/pages/admin/notifikasi/edit.jsp" afterPath="$PROJECT_DIR$/out/artifacts/mysneakers_war_exploded/pages/admin/notifikasi/edit.jsp" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/mysneakers_war_exploded/pages/admin/order/edit.jsp" afterPath="$PROJECT_DIR$/out/artifacts/mysneakers_war_exploded/pages/admin/order/edit.jsp" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/mysneakers_war_exploded/pages/admin/produk/add.jsp" afterPath="$PROJECT_DIR$/out/artifacts/mysneakers_war_exploded/pages/admin/produk/add.jsp" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/mysneakers_war_exploded/pages/admin/produk/edit.jsp" afterPath="$PROJECT_DIR$/out/artifacts/mysneakers_war_exploded/pages/admin/produk/edit.jsp" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/mysneakers_war_exploded/pages/admin/promo_produk/edit.jsp" afterPath="$PROJECT_DIR$/out/artifacts/mysneakers_war_exploded/pages/admin/promo_produk/edit.jsp" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/mysneakers_war_exploded/pages/admin/role_user/edit.jsp" afterPath="$PROJECT_DIR$/out/artifacts/mysneakers_war_exploded/pages/admin/role_user/edit.jsp" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/mysneakers_war_exploded/pages/admin/size_produk/edit.jsp" afterPath="$PROJECT_DIR$/out/artifacts/mysneakers_war_exploded/pages/admin/size_produk/edit.jsp" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/mysneakers_war_exploded/pages/admin/user/edit.jsp" afterPath="$PROJECT_DIR$/out/artifacts/mysneakers_war_exploded/pages/admin/user/edit.jsp" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/mysneakers_war_exploded/pages/admin/warna/edit.jsp" afterPath="$PROJECT_DIR$/out/artifacts/mysneakers_war_exploded/pages/admin/warna/edit.jsp" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/mysneakers_war_exploded/pages/admin/warna_produk/edit.jsp" afterPath="$PROJECT_DIR$/out/artifacts/mysneakers_war_exploded/pages/admin/warna_produk/edit.jsp" />
+      <change beforePath="$PROJECT_DIR$/out/production/mysneakers/config/Database.class" afterPath="$PROJECT_DIR$/out/production/mysneakers/config/Database.class" />
+      <change beforePath="$PROJECT_DIR$/out/production/mysneakers/config/Variable.class" afterPath="$PROJECT_DIR$/out/production/mysneakers/config/Variable.class" />
+      <change beforePath="$PROJECT_DIR$/out/production/mysneakers/controller/ProdukController.class" afterPath="" />
       <change beforePath="$PROJECT_DIR$/out/production/mysneakers/controller/UserController.class" afterPath="$PROJECT_DIR$/out/production/mysneakers/controller/UserController.class" />
+      <change beforePath="$PROJECT_DIR$/out/production/mysneakers/dao/BrandDao.class" afterPath="$PROJECT_DIR$/out/production/mysneakers/dao/BrandDao.class" />
+      <change beforePath="$PROJECT_DIR$/out/production/mysneakers/dao/JenisDao.class" afterPath="$PROJECT_DIR$/out/production/mysneakers/dao/JenisDao.class" />
+      <change beforePath="$PROJECT_DIR$/out/production/mysneakers/dao/ProdukDao.class" afterPath="$PROJECT_DIR$/out/production/mysneakers/dao/ProdukDao.class" />
       <change beforePath="$PROJECT_DIR$/out/production/mysneakers/dao/UserDao.class" afterPath="$PROJECT_DIR$/out/production/mysneakers/dao/UserDao.class" />
+      <change beforePath="$PROJECT_DIR$/out/production/mysneakers/helper/IBaseDao.class" afterPath="$PROJECT_DIR$/out/production/mysneakers/helper/IBaseDao.class" />
+      <change beforePath="$PROJECT_DIR$/out/production/mysneakers/model/Artikel.class" afterPath="$PROJECT_DIR$/out/production/mysneakers/model/Artikel.class" />
+      <change beforePath="$PROJECT_DIR$/out/production/mysneakers/model/ArtikelModel.class" afterPath="$PROJECT_DIR$/out/production/mysneakers/model/ArtikelModel.class" />
+      <change beforePath="$PROJECT_DIR$/out/production/mysneakers/model/Brand.class" afterPath="$PROJECT_DIR$/out/production/mysneakers/model/Brand.class" />
+      <change beforePath="$PROJECT_DIR$/out/production/mysneakers/model/BrandModel.class" afterPath="$PROJECT_DIR$/out/production/mysneakers/model/BrandModel.class" />
+      <change beforePath="$PROJECT_DIR$/out/production/mysneakers/model/DetailOrder.class" afterPath="$PROJECT_DIR$/out/production/mysneakers/model/DetailOrder.class" />
+      <change beforePath="$PROJECT_DIR$/out/production/mysneakers/model/DetailOrderModel.class" afterPath="$PROJECT_DIR$/out/production/mysneakers/model/DetailOrderModel.class" />
+      <change beforePath="$PROJECT_DIR$/out/production/mysneakers/model/Jenis.class" afterPath="$PROJECT_DIR$/out/production/mysneakers/model/Jenis.class" />
+      <change beforePath="$PROJECT_DIR$/out/production/mysneakers/model/JenisModel.class" afterPath="$PROJECT_DIR$/out/production/mysneakers/model/JenisModel.class" />
+      <change beforePath="$PROJECT_DIR$/out/production/mysneakers/model/KategoriProduk.class" afterPath="$PROJECT_DIR$/out/production/mysneakers/model/KategoriProduk.class" />
+      <change beforePath="$PROJECT_DIR$/out/production/mysneakers/model/KategoriProdukModel.class" afterPath="$PROJECT_DIR$/out/production/mysneakers/model/KategoriProdukModel.class" />
+      <change beforePath="$PROJECT_DIR$/out/production/mysneakers/model/Notifikasi.class" afterPath="$PROJECT_DIR$/out/production/mysneakers/model/Notifikasi.class" />
+      <change beforePath="$PROJECT_DIR$/out/production/mysneakers/model/NotifikasiModel.class" afterPath="$PROJECT_DIR$/out/production/mysneakers/model/NotifikasiModel.class" />
+      <change beforePath="$PROJECT_DIR$/out/production/mysneakers/model/Order.class" afterPath="$PROJECT_DIR$/out/production/mysneakers/model/Order.class" />
+      <change beforePath="$PROJECT_DIR$/out/production/mysneakers/model/OrderModel.class" afterPath="$PROJECT_DIR$/out/production/mysneakers/model/OrderModel.class" />
+      <change beforePath="$PROJECT_DIR$/out/production/mysneakers/model/Produk.class" afterPath="$PROJECT_DIR$/out/production/mysneakers/model/Produk.class" />
+      <change beforePath="$PROJECT_DIR$/out/production/mysneakers/model/ProdukModel.class" afterPath="$PROJECT_DIR$/out/production/mysneakers/model/ProdukModel.class" />
+      <change beforePath="$PROJECT_DIR$/out/production/mysneakers/model/PromoProduk.class" afterPath="$PROJECT_DIR$/out/production/mysneakers/model/PromoProduk.class" />
+      <change beforePath="$PROJECT_DIR$/out/production/mysneakers/model/PromoProdukModel.class" afterPath="$PROJECT_DIR$/out/production/mysneakers/model/PromoProdukModel.class" />
+      <change beforePath="$PROJECT_DIR$/out/production/mysneakers/model/RoleUser.class" afterPath="$PROJECT_DIR$/out/production/mysneakers/model/RoleUser.class" />
+      <change beforePath="$PROJECT_DIR$/out/production/mysneakers/model/RoleUserModel.class" afterPath="$PROJECT_DIR$/out/production/mysneakers/model/RoleUserModel.class" />
+      <change beforePath="$PROJECT_DIR$/out/production/mysneakers/model/Size.class" afterPath="$PROJECT_DIR$/out/production/mysneakers/model/Size.class" />
+      <change beforePath="$PROJECT_DIR$/out/production/mysneakers/model/SizeModel.class" afterPath="$PROJECT_DIR$/out/production/mysneakers/model/SizeModel.class" />
+      <change beforePath="$PROJECT_DIR$/out/production/mysneakers/model/SizeProduk.class" afterPath="$PROJECT_DIR$/out/production/mysneakers/model/SizeProduk.class" />
+      <change beforePath="$PROJECT_DIR$/out/production/mysneakers/model/SizeProdukModel.class" afterPath="$PROJECT_DIR$/out/production/mysneakers/model/SizeProdukModel.class" />
+      <change beforePath="$PROJECT_DIR$/out/production/mysneakers/model/User.class" afterPath="$PROJECT_DIR$/out/production/mysneakers/model/User.class" />
+      <change beforePath="$PROJECT_DIR$/out/production/mysneakers/model/UserModel.class" afterPath="$PROJECT_DIR$/out/production/mysneakers/model/UserModel.class" />
+      <change beforePath="$PROJECT_DIR$/out/production/mysneakers/model/Warna.class" afterPath="$PROJECT_DIR$/out/production/mysneakers/model/Warna.class" />
+      <change beforePath="$PROJECT_DIR$/out/production/mysneakers/model/WarnaModel.class" afterPath="$PROJECT_DIR$/out/production/mysneakers/model/WarnaModel.class" />
+      <change beforePath="$PROJECT_DIR$/out/production/mysneakers/model/WarnaProduk.class" afterPath="$PROJECT_DIR$/out/production/mysneakers/model/WarnaProduk.class" />
+      <change beforePath="$PROJECT_DIR$/out/production/mysneakers/model/WarnaProdukModel.class" afterPath="$PROJECT_DIR$/out/production/mysneakers/model/WarnaProdukModel.class" />
+      <change beforePath="$PROJECT_DIR$/out/production/mysneakers/servlet/LoginServlet.class" afterPath="$PROJECT_DIR$/out/production/mysneakers/servlet/LoginServlet.class" />
+      <change beforePath="$PROJECT_DIR$/out/production/mysneakers/servlet/LogoutServlet.class" afterPath="$PROJECT_DIR$/out/production/mysneakers/servlet/LogoutServlet.class" />
       <change beforePath="$PROJECT_DIR$/out/production/mysneakers/servlet/RegisterServlet.class" afterPath="$PROJECT_DIR$/out/production/mysneakers/servlet/RegisterServlet.class" />
-      <change beforePath="$PROJECT_DIR$/src/controller/UserController.java" afterPath="$PROJECT_DIR$/src/controller/UserController.java" />
-      <change beforePath="$PROJECT_DIR$/src/dao/BrandDao.java" afterPath="$PROJECT_DIR$/src/dao/BrandDao.java" />
-      <change beforePath="$PROJECT_DIR$/src/dao/JenisDao.java" afterPath="$PROJECT_DIR$/src/dao/JenisDao.java" />
-      <change beforePath="$PROJECT_DIR$/src/dao/ProdukDao.java" afterPath="$PROJECT_DIR$/src/dao/ProdukDao.java" />
-      <change beforePath="$PROJECT_DIR$/src/dao/UserDao.java" afterPath="$PROJECT_DIR$/src/dao/UserDao.java" />
-      <change beforePath="$PROJECT_DIR$/src/servlet/RegisterServlet.java" afterPath="$PROJECT_DIR$/src/servlet/RegisterServlet.java" />
+      <change beforePath="$PROJECT_DIR$/out/production/mysneakers/servlet/ServletTest.class" afterPath="$PROJECT_DIR$/out/production/mysneakers/servlet/ServletTest.class" />
+      <change beforePath="$PROJECT_DIR$/out/production/mysneakers/servlet/admin/HomeAdminServlet.class" afterPath="$PROJECT_DIR$/out/production/mysneakers/servlet/admin/HomeAdminServlet.class" />
+      <change beforePath="$PROJECT_DIR$/out/production/mysneakers/servlet/admin/JenisServlet.class" afterPath="$PROJECT_DIR$/out/production/mysneakers/servlet/admin/JenisServlet.class" />
+      <change beforePath="$PROJECT_DIR$/out/production/mysneakers/servlet/admin/artikel/AddArtikelServlet.class" afterPath="$PROJECT_DIR$/out/production/mysneakers/servlet/admin/artikel/AddArtikelServlet.class" />
+      <change beforePath="$PROJECT_DIR$/out/production/mysneakers/servlet/admin/artikel/ArtikelServlet.class" afterPath="$PROJECT_DIR$/out/production/mysneakers/servlet/admin/artikel/ArtikelServlet.class" />
+      <change beforePath="$PROJECT_DIR$/out/production/mysneakers/servlet/admin/brand/AddBrandServlet.class" afterPath="$PROJECT_DIR$/out/production/mysneakers/servlet/admin/brand/AddBrandServlet.class" />
+      <change beforePath="$PROJECT_DIR$/out/production/mysneakers/servlet/admin/brand/BrandServlet.class" afterPath="$PROJECT_DIR$/out/production/mysneakers/servlet/admin/brand/BrandServlet.class" />
+      <change beforePath="$PROJECT_DIR$/out/production/mysneakers/servlet/admin/kategori_produk/AddKategoriProdukServlet.class" afterPath="$PROJECT_DIR$/out/production/mysneakers/servlet/admin/kategori_produk/AddKategoriProdukServlet.class" />
+      <change beforePath="$PROJECT_DIR$/out/production/mysneakers/servlet/admin/kategori_produk/KategoriProdukServlet.class" afterPath="$PROJECT_DIR$/out/production/mysneakers/servlet/admin/kategori_produk/KategoriProdukServlet.class" />
+      <change beforePath="$PROJECT_DIR$/out/production/mysneakers/servlet/admin/notifikasi/AddNotifikasiServlet.class" afterPath="$PROJECT_DIR$/out/production/mysneakers/servlet/admin/notifikasi/AddNotifikasiServlet.class" />
+      <change beforePath="$PROJECT_DIR$/out/production/mysneakers/servlet/admin/notifikasi/NotifikasiServlet.class" afterPath="$PROJECT_DIR$/out/production/mysneakers/servlet/admin/notifikasi/NotifikasiServlet.class" />
+      <change beforePath="$PROJECT_DIR$/out/production/mysneakers/servlet/admin/order/AddOrderServlet.class" afterPath="$PROJECT_DIR$/out/production/mysneakers/servlet/admin/order/AddOrderServlet.class" />
+      <change beforePath="$PROJECT_DIR$/out/production/mysneakers/servlet/admin/order/OrderServlet.class" afterPath="$PROJECT_DIR$/out/production/mysneakers/servlet/admin/order/OrderServlet.class" />
+      <change beforePath="$PROJECT_DIR$/out/production/mysneakers/servlet/admin/produk/AddProdukServlet.class" afterPath="$PROJECT_DIR$/out/production/mysneakers/servlet/admin/produk/AddProdukServlet.class" />
+      <change beforePath="$PROJECT_DIR$/out/production/mysneakers/servlet/admin/produk/ProdukServlet.class" afterPath="$PROJECT_DIR$/out/production/mysneakers/servlet/admin/produk/ProdukServlet.class" />
+      <change beforePath="$PROJECT_DIR$/out/production/mysneakers/servlet/admin/promo_produk/AddPromoProdukServlet.class" afterPath="$PROJECT_DIR$/out/production/mysneakers/servlet/admin/promo_produk/AddPromoProdukServlet.class" />
+      <change beforePath="$PROJECT_DIR$/out/production/mysneakers/servlet/admin/promo_produk/PromoProdukServlet.class" afterPath="$PROJECT_DIR$/out/production/mysneakers/servlet/admin/promo_produk/PromoProdukServlet.class" />
+      <change beforePath="$PROJECT_DIR$/out/production/mysneakers/servlet/admin/role_user/AddRoleUserServlet.class" afterPath="$PROJECT_DIR$/out/production/mysneakers/servlet/admin/role_user/AddRoleUserServlet.class" />
+      <change beforePath="$PROJECT_DIR$/out/production/mysneakers/servlet/admin/role_user/RoleUserServlet.class" afterPath="$PROJECT_DIR$/out/production/mysneakers/servlet/admin/role_user/RoleUserServlet.class" />
+      <change beforePath="$PROJECT_DIR$/out/production/mysneakers/servlet/admin/size_produk/AddSizeProdukServlet.class" afterPath="$PROJECT_DIR$/out/production/mysneakers/servlet/admin/size_produk/AddSizeProdukServlet.class" />
+      <change beforePath="$PROJECT_DIR$/out/production/mysneakers/servlet/admin/size_produk/SizeProdukServlet.class" afterPath="$PROJECT_DIR$/out/production/mysneakers/servlet/admin/size_produk/SizeProdukServlet.class" />
+      <change beforePath="$PROJECT_DIR$/out/production/mysneakers/servlet/admin/user/AddUserServlet.class" afterPath="$PROJECT_DIR$/out/production/mysneakers/servlet/admin/user/AddUserServlet.class" />
+      <change beforePath="$PROJECT_DIR$/out/production/mysneakers/servlet/admin/user/UserServlet.class" afterPath="$PROJECT_DIR$/out/production/mysneakers/servlet/admin/user/UserServlet.class" />
+      <change beforePath="$PROJECT_DIR$/out/production/mysneakers/servlet/admin/warna/AddWarnaServlet.class" afterPath="$PROJECT_DIR$/out/production/mysneakers/servlet/admin/warna/AddWarnaServlet.class" />
+      <change beforePath="$PROJECT_DIR$/out/production/mysneakers/servlet/admin/warna/WarnaServlet.class" afterPath="$PROJECT_DIR$/out/production/mysneakers/servlet/admin/warna/WarnaServlet.class" />
+      <change beforePath="$PROJECT_DIR$/out/production/mysneakers/servlet/admin/warna_produk/AddWarnaProdukServlet.class" afterPath="$PROJECT_DIR$/out/production/mysneakers/servlet/admin/warna_produk/AddWarnaProdukServlet.class" />
+      <change beforePath="$PROJECT_DIR$/out/production/mysneakers/servlet/admin/warna_produk/WarnaProdukServlet.class" afterPath="$PROJECT_DIR$/out/production/mysneakers/servlet/admin/warna_produk/WarnaProdukServlet.class" />
+      <change beforePath="$PROJECT_DIR$/out/production/mysneakers/test/Test.class" afterPath="$PROJECT_DIR$/out/production/mysneakers/test/Test.class" />
+      <change beforePath="$PROJECT_DIR$/out/production/mysneakers/utils/MyUtils.class" afterPath="$PROJECT_DIR$/out/production/mysneakers/utils/MyUtils.class" />
+      <change beforePath="$PROJECT_DIR$/src/controller/ProdukController.java" afterPath="$PROJECT_DIR$/src/controller/ProdukController.java" />
       <change beforePath="$PROJECT_DIR$/src/servlet/admin/produk/AddProdukServlet.java" afterPath="$PROJECT_DIR$/src/servlet/admin/produk/AddProdukServlet.java" />
       <change beforePath="$PROJECT_DIR$/src/test/Test.java" afterPath="$PROJECT_DIR$/src/test/Test.java" />
-      <change beforePath="$PROJECT_DIR$/web/pages/admin/brand/list.jsp" afterPath="$PROJECT_DIR$/web/pages/admin/brand/list.jsp" />
-      <change beforePath="$PROJECT_DIR$/web/pages/admin/jenis/list.jsp" afterPath="$PROJECT_DIR$/web/pages/admin/jenis/list.jsp" />
-      <change beforePath="$PROJECT_DIR$/web/pages/admin/produk/list.jsp" afterPath="$PROJECT_DIR$/web/pages/admin/produk/list.jsp" />
+      <change beforePath="$PROJECT_DIR$/web/pages/admin/produk/add.jsp" afterPath="$PROJECT_DIR$/web/pages/admin/produk/add.jsp" />
+      <change beforePath="$PROJECT_DIR$/web/pages/admin/produk/edit.jsp" afterPath="$PROJECT_DIR$/web/pages/admin/produk/edit.jsp" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -55,12 +202,12 @@
     <select />
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file leaf-file-name="workspace.xml" pinned="false" current-in-tab="true">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="workspace.xml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/.idea/workspace.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="146">
-              <caret line="1113" column="17" lean-forward="true" selection-start-line="1113" selection-start-column="17" selection-end-line="1113" selection-end-column="17" />
+            <state relative-caret-position="0">
+              <caret line="1455" column="2" lean-forward="false" selection-start-line="1455" selection-start-column="2" selection-end-line="1455" selection-end-column="2" />
               <folding />
             </state>
           </provider>
@@ -69,8 +216,93 @@
       <file leaf-file-name=".gitignore" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/.gitignore">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+            <state relative-caret-position="18">
+              <caret line="1" column="10" lean-forward="false" selection-start-line="1" selection-start-column="10" selection-end-line="1" selection-end-column="10" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="add.jsp" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/web/pages/admin/produk/add.jsp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="386">
+              <caret line="146" column="56" lean-forward="false" selection-start-line="146" selection-start-column="56" selection-end-line="146" selection-end-column="56" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Test.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/Test.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="270">
+              <caret line="18" column="21" lean-forward="false" selection-start-line="18" selection-start-column="21" selection-end-line="18" selection-end-column="21" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="LoginServlet.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/servlet/LoginServlet.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="126">
+              <caret line="15" column="61" lean-forward="false" selection-start-line="15" selection-start-column="61" selection-end-line="15" selection-end-column="61" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ProdukController.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/controller/ProdukController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="157">
+              <caret line="10" column="19" lean-forward="false" selection-start-line="10" selection-start-column="19" selection-end-line="10" selection-end-column="19" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Database.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/config/Database.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="909">
+              <caret line="76" column="40" lean-forward="false" selection-start-line="76" selection-start-column="40" selection-end-line="76" selection-end-column="40" />
+              <folding>
+                <element signature="e#1884#1885#0" expanded="true" />
+                <element signature="e#1933#1934#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="AddProdukServlet.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/servlet/admin/produk/AddProdukServlet.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="72">
+              <caret line="20" column="38" lean-forward="false" selection-start-line="20" selection-start-column="38" selection-end-line="20" selection-end-column="38" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="list.jsp" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/web/pages/admin/produk/list.jsp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1158">
+              <caret line="66" column="70" lean-forward="false" selection-start-line="66" selection-start-column="70" selection-end-line="66" selection-end-column="70" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="edit.jsp" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/web/pages/admin/produk/edit.jsp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="436">
+              <caret line="61" column="155" lean-forward="false" selection-start-line="61" selection-start-column="155" selection-end-line="61" selection-end-column="155" />
               <folding />
             </state>
           </provider>
@@ -110,6 +342,12 @@
       <find>User</find>
       <find>test</find>
       <find>=======</find>
+      <find>fail</find>
+      <find>bsa</find>
+      <find>Deski</find>
+      <find>Desk</find>
+      <find>desk</find>
+      <find>add</find>
     </findStrings>
     <replaceStrings>
       <replace>Administrator</replace>
@@ -128,41 +366,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/web/pages/admin/includes/_sidebar.jsp" />
-        <option value="$PROJECT_DIR$/src/servlet/admin/brand/AddBrandServlet.java" />
-        <option value="$PROJECT_DIR$/src/servlet/admin/kategori_produk/AddKategoriProdukServlet.java" />
-        <option value="$PROJECT_DIR$/src/servlet/admin/notifikasi/AddNotifikasiServlet.java" />
-        <option value="$PROJECT_DIR$/src/servlet/admin/order/AddOrderServlet.java" />
-        <option value="$PROJECT_DIR$/src/servlet/admin/produk/AddProdukServlet.java" />
-        <option value="$PROJECT_DIR$/src/servlet/admin/promo_produk/AddPromoProdukServlet.java" />
-        <option value="$PROJECT_DIR$/src/servlet/admin/role_user/AddRoleUserServlet.java" />
-        <option value="$PROJECT_DIR$/src/servlet/admin/size_produk/AddSizeProdukServlet.java" />
-        <option value="$PROJECT_DIR$/src/servlet/admin/user/AddUserServlet.java" />
-        <option value="$PROJECT_DIR$/src/servlet/admin/warna/AddWarnaServlet.java" />
-        <option value="$PROJECT_DIR$/src/servlet/admin/warna_produk/AddWarnaProdukServlet.java" />
-        <option value="$PROJECT_DIR$/web/pages/admin/artikel/add.jsp" />
-        <option value="$PROJECT_DIR$/web/pages/admin/kategori_produk/list.jsp" />
-        <option value="$PROJECT_DIR$/web/pages/admin/brand/add.jsp" />
-        <option value="$PROJECT_DIR$/web/pages/admin/kategori_produk/add.jsp" />
-        <option value="$PROJECT_DIR$/web/pages/admin/notifikasi/add.jsp" />
-        <option value="$PROJECT_DIR$/web/pages/admin/order/add.jsp" />
-        <option value="$PROJECT_DIR$/web/pages/admin/produk/add.jsp" />
-        <option value="$PROJECT_DIR$/web/pages/admin/promo_produk/add.jsp" />
-        <option value="$PROJECT_DIR$/web/pages/admin/role_user/list.jsp" />
-        <option value="$PROJECT_DIR$/web/pages/admin/promo_produk/list.jsp" />
-        <option value="$PROJECT_DIR$/web/pages/admin/produk/list.jsp" />
-        <option value="$PROJECT_DIR$/web/pages/admin/order/list.jsp" />
-        <option value="$PROJECT_DIR$/web/pages/admin/notifikasi/list.jsp" />
-        <option value="$PROJECT_DIR$/web/pages/admin/jenis/list.jsp" />
-        <option value="$PROJECT_DIR$/web/pages/admin/brand/list.jsp" />
-        <option value="$PROJECT_DIR$/web/pages/admin/artikel/list.jsp" />
-        <option value="$PROJECT_DIR$/web/pages/admin/role_user/add.jsp" />
-        <option value="$PROJECT_DIR$/web/pages/admin/size_produk/list.jsp" />
-        <option value="$PROJECT_DIR$/web/pages/admin/size_produk/add.jsp" />
-        <option value="$PROJECT_DIR$/web/pages/admin/user/list.jsp" />
-        <option value="$PROJECT_DIR$/web/pages/admin/user/add.jsp" />
-        <option value="$PROJECT_DIR$/web/pages/admin/warna/list.jsp" />
-        <option value="$PROJECT_DIR$/web/pages/admin/warna_produk/list.jsp" />
         <option value="$PROJECT_DIR$/web/pages/admin/warna/add.jsp" />
         <option value="$PROJECT_DIR$/src/servlet/admin/warna_produk/EditWarnaProdukServlet.java" />
         <option value="$PROJECT_DIR$/src/servlet/admin/warna/EditWarnaServlet.java" />
@@ -183,7 +386,6 @@
         <option value="$PROJECT_DIR$/src/model/UserModel.java" />
         <option value="$PROJECT_DIR$/web/pages/register.jsp" />
         <option value="$PROJECT_DIR$/web/WEB-INF/web.tld" />
-        <option value="$PROJECT_DIR$/WEB-INF/web.xml" />
         <option value="$PROJECT_DIR$/src/META-INF/persistence.xml" />
         <option value="$PROJECT_DIR$/META-INF/persistence.xml" />
         <option value="$PROJECT_DIR$/META-INF/application.xml" />
@@ -206,12 +408,15 @@
         <option value="$PROJECT_DIR$/src/controller/UserController.java" />
         <option value="$PROJECT_DIR$/src/dao/JenisDao.java" />
         <option value="$PROJECT_DIR$/src/dao/BrandDao.java" />
-        <option value="$PROJECT_DIR$/.gitignore" />
-        <option value="$PROJECT_DIR$/src/servlet/admin/produk/AddProdukServlet.java" />
         <option value="$PROJECT_DIR$/src/servlet/RegisterServlet.java" />
-        <option value="$PROJECT_DIR$/src/controller/ProdukController.java" />
-        <option value="$PROJECT_DIR$/src/test/Test.java" />
         <option value="$PROJECT_DIR$/src/dao/ProdukDao.java" />
+        <option value="$PROJECT_DIR$/.gitignore" />
+        <option value="$PROJECT_DIR$/web/pages/admin/produk/add.jsp" />
+        <option value="$PROJECT_DIR$/src/test/Test.java" />
+        <option value="$PROJECT_DIR$/WEB-INF/web.xml" />
+        <option value="$PROJECT_DIR$/src/servlet/admin/produk/AddProdukServlet.java" />
+        <option value="$PROJECT_DIR$/src/controller/ProdukController.java" />
+        <option value="$PROJECT_DIR$/web/pages/admin/produk/edit.jsp" />
       </list>
     </option>
   </component>
@@ -280,9 +485,10 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="AndroidView" />
       <pane id="PackagesPane" />
       <pane id="Scratches" />
-      <pane id="AndroidView" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -293,13 +499,17 @@
             <path>
               <item name="mysneakers" type="b2602c69:ProjectViewProjectNode" />
               <item name="mysneakers" type="462c0819:PsiDirectoryNode" />
-              <item name=".idea" type="462c0819:PsiDirectoryNode" />
+              <item name="web" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="mysneakers" type="b2602c69:ProjectViewProjectNode" />
+              <item name="mysneakers" type="462c0819:PsiDirectoryNode" />
+              <item name="WEB-INF" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -307,7 +517,7 @@
     <property name="JPA.DatabaseSchemaImportDialog" value="7ed84f3f-35fc-4528-9319-1b753c0268db" />
     <property name="Repository.Attach.JavaDocs" value="false" />
     <property name="Repository.Attach.Sources" value="false" />
-    <property name="SearchEverywhereHistoryKey" value="Lo&#9;FILE&#9;file:///media/mygetzu/BENY/MEGA/Project/JAVA/JSP/mysneakers/src/servlet/LoginServlet.java&#10;sid&#9;FILE&#9;file:///media/mygetzu/BENY/MEGA/Project/JAVA/JSP/mysneakers/web/pages/admin/includes/_sidebar.jsp&#10;logi&#9;FILE&#9;file:///media/mygetzu/BENY/MEGA/Project/JAVA/JSP/mysneakers/src/servlet/LoginServlet.java&#10;Regi&#9;FILE&#9;file:///media/mygetzu/BENY/MEGA/Project/JAVA/JSP/mysneakers/src/servlet/RegisterServlet.java&#10;Jenis&#9;PSI&#9;JAVA://model.Jenis&#10;Jen&#9;FILE&#9;file:///media/mygetzu/BENY/MEGA/Project/JAVA/JSP/mysneakers/src/dao/JenisDao.java&#10;sideba&#9;FILE&#9;file:///media/mygetzu/BENY/MEGA/Project/JAVA/JSP/mysneakers/web/pages/admin/includes/_sidebar.jsp&#10;side&#9;FILE&#9;file:///media/mygetzu/BENY/MEGA/Project/JAVA/JSP/mysneakers/web/pages/admin/includes/_sidebar.jsp&#10;regis&#9;FILE&#9;file:///media/mygetzu/BENY/MEGA/Project/JAVA/JSP/mysneakers/web/pages/register.jsp&#10;hiberna&#9;FILE&#9;file:///media/mygetzu/BENY/MEGA/Project/JAVA/JSP/mysneakers/src/hibernate.cfg.xml&#10;javax.xm&#9;FILE&#9;file:///media/mygetzu/BENY/MEGA/Project/JAVA/JSP/mysneakers/lib/eclipselink-2.7.1.v20171221-bd47e8f/eclipselink/jlib/moxy/api/javax.xml.bind_2.2.12.v201410011542.jar&#10;Persis&#9;PSI&#9;JAVA://javax.persistence.Persistence&#10;Persiste&#9;ACTION&#9;ActivatePersistenceToolWindow&#10;UserDa&#9;FILE&#9;file:///media/mygetzu/BENY/MEGA/Project/JAVA/JSP/mysneakers/src/dao/UserDao.java&#10;add&#9;FILE&#9;file:///media/mygetzu/BENY/MEGA/Project/JAVA/JSP/mysneakers/web/pages/admin/warna_produk/add.jsp&#10;registe&#9;FILE&#9;file:///media/mygetzu/BENY/MEGA/Project/JAVA/JSP/mysneakers/web/pages/register.jsp&#10;list&#9;FILE&#9;file:///media/mygetzu/BENY/MEGA/Project/JAVA/JSP/mysneakers/web/pages/admin/artikel/list.jsp&#10;he&#9;FILE&#9;file://D:/Collage/Semester 4/Pemrograman Lanjut/Project Progla/mysneakers-webprofile-jsp/web/pages/admin/includes/_header.jsp&#10;ckeditor.js&#9;FILE&#9;file://D:/Collage/Semester 4/Pemrograman Lanjut/Project Progla/mysneakers-webprofile-jsp/web/admin/plugins/ckeditor/ckeditor.js&#10;foo&#9;FILE&#9;file://D:/Collage/Semester 4/Pemrograman Lanjut/Project Progla/mysneakers-webprofile-jsp/web/pages/admin/includes/_footer.jsp&#10;head&#9;FILE&#9;file://D:/Collage/Semester 4/Pemrograman Lanjut/Project Progla/mysneakers-webprofile-jsp/web/pages/admin/includes/_header.jsp&#10;register&#9;FILE&#9;file:///media/mygetzu/BENY/MEGA/Project/JAVA/JSP/mysneakers/web/pages/register.jsp" />
+    <property name="SearchEverywhereHistoryKey" value="edit&#9;FILE&#9;file:///media/mygetzu/BENY/MEGA/Project/JAVA/JSP/mysneakers/web/pages/admin/produk/edit.jsp&#10;Data&#9;FILE&#9;file:///media/mygetzu/BENY/MEGA/Project/JAVA/JSP/mysneakers/src/config/Database.java&#10;Reg&#9;FILE&#9;file:///media/mygetzu/BENY/MEGA/Project/JAVA/JSP/mysneakers/src/servlet/RegisterServlet.java&#10;Logi&#9;FILE&#9;file:///media/mygetzu/BENY/MEGA/Project/JAVA/JSP/mysneakers/src/servlet/LoginServlet.java&#10;addPr&#9;FILE&#9;file:///media/mygetzu/BENY/MEGA/Project/JAVA/JSP/mysneakers/src/servlet/admin/produk/AddProdukServlet.java&#10;list&#9;FILE&#9;file:///media/mygetzu/BENY/MEGA/Project/JAVA/JSP/mysneakers/web/pages/admin/produk/list.jsp&#10;add&#9;FILE&#9;file:///media/mygetzu/BENY/MEGA/Project/JAVA/JSP/mysneakers/web/pages/admin/produk/add.jsp&#10;Lo&#9;FILE&#9;file:///media/mygetzu/BENY/MEGA/Project/JAVA/JSP/mysneakers/src/servlet/LoginServlet.java&#10;sid&#9;FILE&#9;file:///media/mygetzu/BENY/MEGA/Project/JAVA/JSP/mysneakers/web/pages/admin/includes/_sidebar.jsp&#10;logi&#9;FILE&#9;file:///media/mygetzu/BENY/MEGA/Project/JAVA/JSP/mysneakers/src/servlet/LoginServlet.java&#10;Regi&#9;FILE&#9;file:///media/mygetzu/BENY/MEGA/Project/JAVA/JSP/mysneakers/src/servlet/RegisterServlet.java&#10;Jenis&#9;PSI&#9;JAVA://model.Jenis&#10;Jen&#9;FILE&#9;file:///media/mygetzu/BENY/MEGA/Project/JAVA/JSP/mysneakers/src/dao/JenisDao.java&#10;sideba&#9;FILE&#9;file:///media/mygetzu/BENY/MEGA/Project/JAVA/JSP/mysneakers/web/pages/admin/includes/_sidebar.jsp&#10;side&#9;FILE&#9;file:///media/mygetzu/BENY/MEGA/Project/JAVA/JSP/mysneakers/web/pages/admin/includes/_sidebar.jsp&#10;regis&#9;FILE&#9;file:///media/mygetzu/BENY/MEGA/Project/JAVA/JSP/mysneakers/web/pages/register.jsp&#10;hiberna&#9;FILE&#9;file:///media/mygetzu/BENY/MEGA/Project/JAVA/JSP/mysneakers/src/hibernate.cfg.xml&#10;javax.xm&#9;FILE&#9;file:///media/mygetzu/BENY/MEGA/Project/JAVA/JSP/mysneakers/lib/eclipselink-2.7.1.v20171221-bd47e8f/eclipselink/jlib/moxy/api/javax.xml.bind_2.2.12.v201410011542.jar&#10;Persis&#9;PSI&#9;JAVA://javax.persistence.Persistence&#10;Persiste&#9;ACTION&#9;ActivatePersistenceToolWindow&#10;UserDa&#9;FILE&#9;file:///media/mygetzu/BENY/MEGA/Project/JAVA/JSP/mysneakers/src/dao/UserDao.java&#10;registe&#9;FILE&#9;file:///media/mygetzu/BENY/MEGA/Project/JAVA/JSP/mysneakers/web/pages/register.jsp&#10;he&#9;FILE&#9;file://D:/Collage/Semester 4/Pemrograman Lanjut/Project Progla/mysneakers-webprofile-jsp/web/pages/admin/includes/_header.jsp&#10;ckeditor.js&#9;FILE&#9;file://D:/Collage/Semester 4/Pemrograman Lanjut/Project Progla/mysneakers-webprofile-jsp/web/admin/plugins/ckeditor/ckeditor.js&#10;foo&#9;FILE&#9;file://D:/Collage/Semester 4/Pemrograman Lanjut/Project Progla/mysneakers-webprofile-jsp/web/pages/admin/includes/_footer.jsp&#10;head&#9;FILE&#9;file://D:/Collage/Semester 4/Pemrograman Lanjut/Project Progla/mysneakers-webprofile-jsp/web/pages/admin/includes/_header.jsp&#10;register&#9;FILE&#9;file:///media/mygetzu/BENY/MEGA/Project/JAVA/JSP/mysneakers/web/pages/register.jsp" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="com.intellij.database.dataSource.DataSourceTemplate" value="MySQL" />
@@ -320,21 +530,23 @@
     <property name="com.intellij.ide.scratch.LRUPopupBuilder$2/Languages" value="XML" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
+      <recent name="$PROJECT_DIR$/web" />
+      <recent name="$PROJECT_DIR$/web/pages/admin" />
+      <recent name="$PROJECT_DIR$/web/pages" />
+      <recent name="$PROJECT_DIR$/web/database" />
+    </key>
+    <key name="ImportMappingsDialog.RecentPackages">
+      <recent name="model" />
+      <recent name="" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/src" />
       <recent name="D:\Collage\Semester 4\Pemrograman Lanjut\Project Progla\mysneakers-webprofile-jsp\web\pages\admin\warna_produk" />
       <recent name="D:\Collage\Semester 4\Pemrograman Lanjut\Project Progla\mysneakers-webprofile-jsp\web\pages\admin\warna" />
       <recent name="D:\Collage\Semester 4\Pemrograman Lanjut\Project Progla\mysneakers-webprofile-jsp\web\pages\admin\user" />
       <recent name="D:\Collage\Semester 4\Pemrograman Lanjut\Project Progla\mysneakers-webprofile-jsp\web\pages\admin\size_produk" />
-    </key>
-    <key name="ImportMappingsDialog.RecentPackages">
-      <recent name="model" />
-      <recent name="" />
-    </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/web/pages/admin" />
-      <recent name="$PROJECT_DIR$/web/pages" />
-      <recent name="$PROJECT_DIR$/web/database" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -349,7 +561,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Test">
+  <component name="RunManager" selected="Tomcat Server.Tomcat">
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="HEIGHT" value="0" />
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
@@ -456,7 +668,7 @@
       <listeners />
     </configuration>
     <configuration name="Tomcat" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 8.5.31" ALTERNATIVE_JRE_ENABLED="false">
-      <option name="OPEN_IN_BROWSER_URL" value="http://localhost:8801" />
+      <option name="OPEN_IN_BROWSER_URL" value="http://localhost:8802" />
       <option name="BROWSER_ID" value="a7bb68e0-33c0-4d6f-a81a-aac1fdb870c8" />
       <option name="START_JAVASCRIPT_DEBUGGER" value="true" />
       <option name="UPDATING_POLICY" value="restart-server" />
@@ -470,7 +682,8 @@
       <server-settings>
         <option name="BASE_DIRECTORY_NAME" value="Unnamed_mysneakers" />
         <option name="DEPLOY_TOMCAT_APPS" value="true" />
-        <option name="HTTP_PORT" value="8801" />
+        <option name="HTTP_PORT" value="8802" />
+        <option name="JNDI_PORT" value="10991" />
       </server-settings>
       <predefined_log_file id="Tomcat" enabled="true" />
       <predefined_log_file id="Tomcat Catalina" enabled="true" />
@@ -649,11 +862,12 @@
       <workItem from="1526970775357" duration="4010000" />
       <workItem from="1527079095799" duration="21754000" />
       <workItem from="1527124209637" duration="5462000" />
+      <workItem from="1527131444768" duration="6239000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="49537000" />
+    <option name="totallyTimeSpent" value="56091000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -665,67 +879,43 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="16" y="-20" width="1368" height="736" extended-state="6" />
+    <frame x="16" y="-20" width="1366" height="731" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
-      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32931036" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
-      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Persistence" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
-      <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
-      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32931036" sideWeight="0.5030303" order="8" side_tool="true" content_ui="tabs" />
+      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32931036" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32931036" sideWeight="0.5" order="13" side_tool="false" content_ui="tabs" />
-      <window_info id="Database Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="combo" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Inspection Results" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32931036" sideWeight="0.5" order="14" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.7280303" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.53103447" order="1" side_tool="true" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.037931036" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.04137931" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32931036" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32931036" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32931036" sideWeight="0.4969697" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.7219697" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.72727275" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Persistence" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.23030303" sideWeight="0.48965517" order="5" side_tool="true" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.23030303" sideWeight="0.5103448" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Web" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.7281879" sideWeight="0.48793104" order="8" side_tool="true" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32892805" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="JavaEE:App" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="true" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="true" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Database Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="combo" />
+      <window_info id="Inspection Results" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32931036" sideWeight="0.5" order="14" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32892805" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="JavaEE:App" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="true" content_ui="tabs" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -745,21 +935,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/web/WEB-INF/web.xml" />
-    <entry file="file://$PROJECT_DIR$/src/model/ArtikelModel.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="544">
-          <caret line="57" column="108" lean-forward="false" selection-start-line="57" selection-start-column="108" selection-end-line="57" selection-end-column="108" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/model/UserModel.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="108">
-          <caret line="6" column="13" lean-forward="false" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/META-INF/persistence.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="374">
@@ -771,13 +946,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/WEB-INF/web.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="378">
-          <caret line="21" column="22" lean-forward="false" selection-start-line="21" selection-start-column="22" selection-end-line="21" selection-end-column="22" />
         </state>
       </provider>
     </entry>
@@ -838,14 +1006,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="937">
           <caret line="66" column="9" lean-forward="true" selection-start-line="66" selection-start-column="9" selection-end-line="66" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/config/Database.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1225">
-          <caret line="76" column="40" lean-forward="false" selection-start-line="76" selection-start-column="40" selection-end-line="76" selection-end-column="40" />
-          <caret line="76" column="40" lean-forward="false" selection-start-line="76" selection-start-column="40" selection-end-line="76" selection-end-column="40" />
         </state>
       </provider>
     </entry>
@@ -926,13 +1086,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/web/pages/admin/produk/list.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="18">
-          <caret line="49" column="45" lean-forward="false" selection-start-line="49" selection-start-column="45" selection-end-line="49" selection-end-column="45" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar:///usr/lib/jvm/java-9-oracle/lib/src.zip!/java.sql/java/sql/Statement.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="177">
@@ -982,33 +1135,25 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/.gitignore">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/dao/JenisDao.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="398">
           <caret line="100" column="34" lean-forward="false" selection-start-line="100" selection-start-column="34" selection-end-line="100" selection-end-column="34" />
           <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#2463#2464#0" expanded="true" />
-            <element signature="e#2491#2492#0" expanded="true" />
-            <element signature="e#2542#2543#0" expanded="true" />
-            <element signature="e#2570#2571#0" expanded="true" />
-            <element signature="e#2621#2622#0" expanded="true" />
-            <element signature="e#2649#2650#0" expanded="true" />
-            <element signature="e#2718#2719#0" expanded="true" />
-            <element signature="e#2769#2770#0" expanded="true" />
-            <element signature="e#2813#2814#0" expanded="true" />
-            <element signature="e#2859#2860#0" expanded="true" />
-            <element signature="e#2896#2897#0" expanded="true" />
-            <element signature="e#2961#2962#0" expanded="true" />
-            <element signature="e#3013#3014#0" expanded="true" />
+            <element signature="imports" expanded="false" />
+            <element signature="e#2463#2464#0" expanded="false" />
+            <element signature="e#2491#2492#0" expanded="false" />
+            <element signature="e#2542#2543#0" expanded="false" />
+            <element signature="e#2570#2571#0" expanded="false" />
+            <element signature="e#2621#2622#0" expanded="false" />
+            <element signature="e#2649#2650#0" expanded="false" />
+            <element signature="e#2718#2719#0" expanded="false" />
+            <element signature="e#2769#2770#0" expanded="false" />
+            <element signature="e#2813#2814#0" expanded="false" />
+            <element signature="e#2859#2860#0" expanded="false" />
+            <element signature="e#2896#2897#0" expanded="false" />
+            <element signature="e#2961#2962#0" expanded="false" />
+            <element signature="e#3013#3014#0" expanded="false" />
             <marker date="1527127725260" expanded="true" signature="703:717" ph="SELECT * FRO... missingValue" />
             <marker date="1527127725260" expanded="true" signature="1653:1701" ph="SELECT * FRO... missingValue" />
           </folding>
@@ -1027,20 +1172,20 @@
         <state relative-caret-position="438">
           <caret line="100" column="34" lean-forward="false" selection-start-line="100" selection-start-column="34" selection-end-line="100" selection-end-column="34" />
           <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#2462#2463#0" expanded="true" />
-            <element signature="e#2490#2491#0" expanded="true" />
-            <element signature="e#2541#2542#0" expanded="true" />
-            <element signature="e#2569#2570#0" expanded="true" />
-            <element signature="e#2620#2621#0" expanded="true" />
-            <element signature="e#2648#2649#0" expanded="true" />
-            <element signature="e#2717#2718#0" expanded="true" />
-            <element signature="e#2768#2769#0" expanded="true" />
-            <element signature="e#2812#2813#0" expanded="true" />
-            <element signature="e#2858#2859#0" expanded="true" />
-            <element signature="e#2895#2896#0" expanded="true" />
-            <element signature="e#2960#2961#0" expanded="true" />
-            <element signature="e#3012#3013#0" expanded="true" />
+            <element signature="imports" expanded="false" />
+            <element signature="e#2462#2463#0" expanded="false" />
+            <element signature="e#2490#2491#0" expanded="false" />
+            <element signature="e#2541#2542#0" expanded="false" />
+            <element signature="e#2569#2570#0" expanded="false" />
+            <element signature="e#2620#2621#0" expanded="false" />
+            <element signature="e#2648#2649#0" expanded="false" />
+            <element signature="e#2717#2718#0" expanded="false" />
+            <element signature="e#2768#2769#0" expanded="false" />
+            <element signature="e#2812#2813#0" expanded="false" />
+            <element signature="e#2858#2859#0" expanded="false" />
+            <element signature="e#2895#2896#0" expanded="false" />
+            <element signature="e#2960#2961#0" expanded="false" />
+            <element signature="e#3012#3013#0" expanded="false" />
             <marker date="1527127740462" expanded="true" signature="704:718" ph="SELECT * FRO... missingValue" />
             <marker date="1527127740462" expanded="true" signature="1654:1702" ph="SELECT * FRO... missingValue" />
           </folding>
@@ -1059,15 +1204,15 @@
         <state relative-caret-position="5">
           <caret line="121" column="27" lean-forward="true" selection-start-line="121" selection-start-column="27" selection-end-line="122" selection-end-column="31" />
           <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#6810#6811#0" expanded="true" />
-            <element signature="e#6843#6844#0" expanded="true" />
-            <element signature="e#6893#6894#0" expanded="true" />
-            <element signature="e#6937#6938#0" expanded="true" />
-            <element signature="e#6981#6982#0" expanded="true" />
-            <element signature="e#7018#7019#0" expanded="true" />
-            <element signature="e#7081#7082#0" expanded="true" />
-            <element signature="e#7133#7134#0" expanded="true" />
+            <element signature="imports" expanded="false" />
+            <element signature="e#6810#6811#0" expanded="false" />
+            <element signature="e#6843#6844#0" expanded="false" />
+            <element signature="e#6893#6894#0" expanded="false" />
+            <element signature="e#6937#6938#0" expanded="false" />
+            <element signature="e#6981#6982#0" expanded="false" />
+            <element signature="e#7018#7019#0" expanded="false" />
+            <element signature="e#7081#7082#0" expanded="false" />
+            <element signature="e#7133#7134#0" expanded="false" />
             <marker date="1527125264785" expanded="true" signature="860:874" ph="SELECT * FRO... missingValue" />
             <marker date="1527125264785" expanded="true" signature="860:892" ph="SELECT * FRO... missingValue" />
             <marker date="1527125264785" expanded="true" signature="1804:1817" ph="SELECT * FRO... " />
@@ -1087,49 +1232,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/servlet/admin/produk/AddProdukServlet.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="162">
-          <caret line="20" column="62" lean-forward="false" selection-start-line="20" selection-start-column="62" selection-end-line="20" selection-end-column="62" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/servlet/LoginServlet.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="162">
-          <caret line="17" column="35" lean-forward="false" selection-start-line="17" selection-start-column="35" selection-end-line="17" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/servlet/RegisterServlet.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="126">
-          <caret line="15" column="7" lean-forward="true" selection-start-line="15" selection-start-column="7" selection-end-line="23" selection-end-column="9" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/controller/UserController.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-273">
           <caret line="38" column="19" lean-forward="false" selection-start-line="38" selection-start-column="19" selection-end-line="38" selection-end-column="19" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/Test.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="216">
-          <caret line="15" column="25" lean-forward="true" selection-start-line="15" selection-start-column="25" selection-end-line="15" selection-end-column="25" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/controller/ProdukController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="72">
-          <caret line="4" column="0" lean-forward="true" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
           <folding />
         </state>
       </provider>
@@ -1139,19 +1245,19 @@
         <state relative-caret-position="396">
           <caret line="108" column="63" lean-forward="true" selection-start-line="108" selection-start-column="63" selection-end-line="108" selection-end-column="63" />
           <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#4013#4014#0" expanded="true" />
-            <element signature="e#4041#4042#0" expanded="true" />
-            <element signature="e#4092#4093#0" expanded="true" />
-            <element signature="e#4120#4121#0" expanded="true" />
-            <element signature="e#4157#4158#0" expanded="true" />
-            <element signature="e#4190#4191#0" expanded="true" />
-            <element signature="e#4242#4243#0" expanded="true" />
-            <element signature="e#4286#4287#0" expanded="true" />
-            <element signature="e#4333#4334#0" expanded="true" />
-            <element signature="e#4370#4371#0" expanded="true" />
-            <element signature="e#4436#4437#0" expanded="true" />
-            <element signature="e#4488#4489#0" expanded="true" />
+            <element signature="imports" expanded="false" />
+            <element signature="e#4013#4014#0" expanded="false" />
+            <element signature="e#4041#4042#0" expanded="false" />
+            <element signature="e#4092#4093#0" expanded="false" />
+            <element signature="e#4120#4121#0" expanded="false" />
+            <element signature="e#4157#4158#0" expanded="false" />
+            <element signature="e#4190#4191#0" expanded="false" />
+            <element signature="e#4242#4243#0" expanded="false" />
+            <element signature="e#4286#4287#0" expanded="false" />
+            <element signature="e#4333#4334#0" expanded="false" />
+            <element signature="e#4370#4371#0" expanded="false" />
+            <element signature="e#4436#4437#0" expanded="false" />
+            <element signature="e#4488#4489#0" expanded="false" />
             <marker date="1527129938097" expanded="true" signature="709:723" ph="SELECT * FRO... missingValue" />
             <marker date="1527129938097" expanded="true" signature="1665:1713" ph="SELECT * FRO... missingValue" />
             <marker date="1527129938097" expanded="true" signature="3113:3291" ph="INSERT INTO missingValue... " />
@@ -1166,6 +1272,107 @@
             <marker date="1527129938097" expanded="true" signature="3113:3616" ph="INSERT INTO missingValue... " />
             <marker date="1527129938097" expanded="true" signature="3113:3688" ph="INSERT INTO missingValue... " />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.idea/workspace.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="1455" column="2" lean-forward="false" selection-start-line="1455" selection-start-column="2" selection-end-line="1455" selection-end-column="2" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="18">
+          <caret line="1" column="10" lean-forward="false" selection-start-line="1" selection-start-column="10" selection-end-line="1" selection-end-column="10" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/WEB-INF/web.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="419">
+          <caret line="28" column="35" lean-forward="false" selection-start-line="28" selection-start-column="35" selection-end-line="28" selection-end-column="35" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/pages/admin/produk/add.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="386">
+          <caret line="146" column="56" lean-forward="false" selection-start-line="146" selection-start-column="56" selection-end-line="146" selection-end-column="56" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/servlet/LoginServlet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="126">
+          <caret line="15" column="61" lean-forward="false" selection-start-line="15" selection-start-column="61" selection-end-line="15" selection-end-column="61" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/servlet/RegisterServlet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="126">
+          <caret line="15" column="7" lean-forward="true" selection-start-line="15" selection-start-column="7" selection-end-line="23" selection-end-column="9" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/config/Database.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="909">
+          <caret line="76" column="40" lean-forward="false" selection-start-line="76" selection-start-column="40" selection-end-line="76" selection-end-column="40" />
+          <folding>
+            <element signature="e#1884#1885#0" expanded="true" />
+            <element signature="e#1933#1934#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/Test.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="18" column="21" lean-forward="false" selection-start-line="18" selection-start-column="21" selection-end-line="18" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/pages/admin/produk/list.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1158">
+          <caret line="66" column="70" lean-forward="false" selection-start-line="66" selection-start-column="70" selection-end-line="66" selection-end-column="70" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/pages/admin/produk/edit.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="436">
+          <caret line="61" column="155" lean-forward="false" selection-start-line="61" selection-start-column="155" selection-end-line="61" selection-end-column="155" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/controller/ProdukController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="157">
+          <caret line="10" column="19" lean-forward="false" selection-start-line="10" selection-start-column="19" selection-end-line="10" selection-end-column="19" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/servlet/admin/produk/AddProdukServlet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="72">
+          <caret line="20" column="38" lean-forward="false" selection-start-line="20" selection-start-column="38" selection-end-line="20" selection-end-column="38" />
+          <folding />
         </state>
       </provider>
     </entry>

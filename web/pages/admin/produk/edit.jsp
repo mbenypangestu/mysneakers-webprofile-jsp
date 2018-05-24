@@ -1,3 +1,5 @@
+<%@ page import="dao.ProdukDao" %>
+<%@ page import="model.Produk" %>
 <!DOCTYPE html>
 <html>
 <head>
@@ -37,6 +39,12 @@
                             </a>
                         </div>
 
+                        <%
+                            ProdukDao produkDao = new ProdukDao();
+
+                            Produk produk       = produkDao.findById(Integer.parseInt(request.getParameter("id")));
+                        %>
+
                         <form class="form-horizontal" method="post" action="${pageContext.request.contextPath}/administrator/produk/edit">
                             <div class="box-body pad">
                                 <div class="form-group">
@@ -51,7 +59,7 @@
                                     <label for="nama" class="col-sm-2 control-label">Nama Produk (*)</label>
 
                                     <div class="col-sm-8">
-                                        <input type="text" class="form-control" id="nama" name="nama" placeholder="Nama Produk" required>
+                                        <input type="text" class="form-control" id="nama" name="nama" placeholder="Nama Produk" value="<%= produk.getNama() %>" required>
                                     </div>
                                 </div>
 

@@ -14,9 +14,9 @@ public class ProdukController {
         String nama     = request.getParameter("nama");
         String deskripsi= request.getParameter("deskripsi");
         String bahan    = request.getParameter("bahan");
-        double harga    = Double.parseDouble(request.getParameter("bahan"));
+        double harga    = Double.parseDouble(request.getParameter("harga"));
         int stok        = Integer.parseInt(request.getParameter("stok"));
-        String gambar   = request.getParameter("gambar");
+//        String gambar   = request.getParameter("gambar");
 
         ProdukDao produkDao     = new ProdukDao();
         Produk produk           = new Produk();
@@ -28,7 +28,7 @@ public class ProdukController {
         produk.setBahan(bahan);
         produk.setHarga(harga);
         produk.setStok(stok);
-        produk.setGambar(gambar);
+//        produk.setGambar(gambar);
 
         produkDao.setTableModel(produk);
 

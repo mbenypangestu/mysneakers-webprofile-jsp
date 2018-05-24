@@ -17,22 +17,13 @@
     <div class="content-wrapper">
         <section class="content-header">
             <h1>
-<<<<<<< HEAD
                 Ubah Artikel
                 <small>Perubahan data artikel</small>
-=======
-                Tambah Artikel
-                <small>Penambahan data artikel</small>
->>>>>>> e07d9d783bd12f4fb4c83a8d18272348e36eb759
             </h1>
             <ol class="breadcrumb">
                 <li><a href="#"><i class="fa fa-dashboard"></i> Home</a></li>
                 <li><a href="#">Artikel</a></li>
-<<<<<<< HEAD
                 <li><a href="#">Ubah</a></li>
-=======
-                <li><a href="#">Tambah</a></li>
->>>>>>> e07d9d783bd12f4fb4c83a8d18272348e36eb759
             </ol>
         </section>
 
@@ -52,11 +43,7 @@
                                     <label for="judul" class="col-sm-2 control-label">Judul Artikel (*)</label>
 
                                     <div class="col-sm-8">
-<<<<<<< HEAD
                                         <input type="text" class="form-control" id="judul" name="judul" placeholder="Judul" required>
-=======
-                                        <input type="text" class="form-control" id="judul" name="judul" placeholder="Judul">
->>>>>>> e07d9d783bd12f4fb4c83a8d18272348e36eb759
                                     </div>
                                 </div>
                                 <div class="form-group">
@@ -83,11 +70,7 @@
                             <div class="box-footer">
                                 <div class="col-sm-10">
                                     <button type="submit" class="btn btn-bitbucket pull-right">
-<<<<<<< HEAD
                                         <i class="fa fa-plus-circle"></i> Ubah
-=======
-                                        <i class="fa fa-plus-circle"></i> Tambah
->>>>>>> e07d9d783bd12f4fb4c83a8d18272348e36eb759
                                     </button>
                                 </div>
                             </div>

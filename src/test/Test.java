@@ -13,10 +13,10 @@ public class Test {
             if(produkController.addProduk(
                     1,
                     2,
-                    "TestNama",
-                    "TestDesc",
-                    "TestBahan",
-                    10000,
+                    "Nama",
+                    "Desc",
+                    "Bahan",
+                    20000,
                     2,
                     null
                     )){

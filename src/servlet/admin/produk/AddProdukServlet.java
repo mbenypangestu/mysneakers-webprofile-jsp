@@ -18,10 +18,13 @@ public class AddProdukServlet extends HttpServlet {
     protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
         ProdukController produkController = new ProdukController();
         try {
-            if (produkController.addProduk(request, response))
+            if (produkController.addProduk(request, response)) {
+                System.out.println("Test");
                 response.sendRedirect("/administrator/produk");
-            else
+            }else{
+                System.out.println("Test");
                 response.sendRedirect("/administrator/produk/add");
+            }
         } catch (Exception e) {
             getServletContext().log(e.getMessage());
         }
