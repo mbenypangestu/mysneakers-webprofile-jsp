@@ -17,6 +17,15 @@
     <div class="content-wrapper">
         <section class="content-header">
             <h1>
+<<<<<<< HEAD
+                Ubah Order
+                <small>Perubahan data order</small>
+            </h1>
+            <ol class="breadcrumb">
+                <li><a href="#"><i class="fa fa-dashboard"></i> Home</a></li>
+                <li><a href="#">Order</a></li>
+                <li><a href="#">Ubah</a></li>
+=======
                 Tambah Artikel
                 <small>Penambahan data artikel</small>
             </h1>
@@ -24,6 +33,7 @@
                 <li><a href="#"><i class="fa fa-dashboard"></i> Home</a></li>
                 <li><a href="#">Artikel</a></li>
                 <li><a href="#">Tambah</a></li>
+>>>>>>> e07d9d783bd12f4fb4c83a8d18272348e36eb759
             </ol>
         </section>
 
@@ -32,11 +42,48 @@
                 <div class="col-xs-12">
                     <div class="box box-info">
                         <div class="box-header with-border">
+<<<<<<< HEAD
+                            <a href="${pageContext.request.contextPath}/administrator/order" class="btn btn-default">
+=======
                             <a href="${pageContext.request.contextPath}/administrator/artikel" class="btn btn-default">
+>>>>>>> e07d9d783bd12f4fb4c83a8d18272348e36eb759
                                 <i class="fa fa-arrow-left"></i> Kembali
                             </a>
                         </div>
 
+<<<<<<< HEAD
+                        <form class="form-horizontal" method="post" action="${pageContext.request.contextPath}/administrator/order/edit">
+                            <div class="box-body pad">
+                                <div class="form-group">
+                                    <label for="tgl_order" class="col-sm-2 control-label">Tanggal Order</label>
+
+                                    <div class="col-sm-8">
+                                        <input type="text" class="form-control" id="tgl_order" name="tgl_order" placeholder="Tanggal" required>
+                                    </div>
+                                </div>
+
+                                <div class="form-group">
+                                    <label for="total" class="col-sm-2 control-label">Total</label>
+
+                                    <div class="col-sm-8">
+                                        <input type="text" class="form-control" id="total" name="total" placeholder="Total" required>
+                                    </div>
+                                </div>
+
+                                <div class="form-group">
+                                    <label for="status_kirim" class="col-sm-2 control-label">Status Kirim</label>
+
+                                    <div class="col-sm-8">
+                                        <input type="text" class="form-control" id="status_kirim" name="status_kirim" placeholder="Status" required>
+                                    </div>
+                                </div>
+
+                                <div class="form-group">
+                                    <label for="status_terima" class="col-sm-2 control-label">Status Terima</label>
+
+                                    <div class="col-sm-8">
+                                        <input type="text" class="form-control" id="status_terima" name="status_terima" placeholder="Status" required>
+=======
                         <form class="form-horizontal" method="post" action="${pageContext.request.contextPath}/administrator/artikel/add">
                             <div class="box-body pad">
                                 <div class="form-group">
@@ -63,6 +110,7 @@
                                     </div>
                                     <div class="col-sm-8 col-sm-push-2">
                                         <img src="" id="gambar_preview" width="300px">
+>>>>>>> e07d9d783bd12f4fb4c83a8d18272348e36eb759
                                     </div>
                                 </div>
                             </div>
@@ -70,7 +118,11 @@
                             <div class="box-footer">
                                 <div class="col-sm-10">
                                     <button type="submit" class="btn btn-bitbucket pull-right">
+<<<<<<< HEAD
+                                        <i class="fa fa-plus-circle"></i> Ubah
+=======
                                         <i class="fa fa-plus-circle"></i> Tambah
+>>>>>>> e07d9d783bd12f4fb4c83a8d18272348e36eb759
                                     </button>
                                 </div>
                             </div>

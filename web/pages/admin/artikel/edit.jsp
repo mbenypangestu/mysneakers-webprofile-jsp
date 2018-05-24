@@ -17,13 +17,13 @@
     <div class="content-wrapper">
         <section class="content-header">
             <h1>
-                Tambah Artikel
-                <small>Penambahan data artikel</small>
+                Ubah Artikel
+                <small>Perubahan data artikel</small>
             </h1>
             <ol class="breadcrumb">
                 <li><a href="#"><i class="fa fa-dashboard"></i> Home</a></li>
                 <li><a href="#">Artikel</a></li>
-                <li><a href="#">Tambah</a></li>
+                <li><a href="#">Ubah</a></li>
             </ol>
         </section>
 
@@ -43,7 +43,7 @@
                                     <label for="judul" class="col-sm-2 control-label">Judul Artikel (*)</label>
 
                                     <div class="col-sm-8">
-                                        <input type="text" class="form-control" id="judul" name="judul" placeholder="Judul">
+                                        <input type="text" class="form-control" id="judul" name="judul" placeholder="Judul" required>
                                     </div>
                                 </div>
                                 <div class="form-group">
@@ -70,7 +70,7 @@
                             <div class="box-footer">
                                 <div class="col-sm-10">
                                     <button type="submit" class="btn btn-bitbucket pull-right">
-                                        <i class="fa fa-plus-circle"></i> Tambah
+                                        <i class="fa fa-plus-circle"></i> Ubah
                                     </button>
                                 </div>
                             </div>

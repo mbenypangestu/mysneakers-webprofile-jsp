@@ -17,6 +17,15 @@
     <div class="content-wrapper">
         <section class="content-header">
             <h1>
+<<<<<<< HEAD
+                Ubah Promo Produk
+                <small>Perubahan data promo produk</small>
+            </h1>
+            <ol class="breadcrumb">
+                <li><a href="#"><i class="fa fa-dashboard"></i> Home</a></li>
+                <li><a href="#">Promo Produk</a></li>
+                <li><a href="#">Ubah</a></li>
+=======
                 Tambah Artikel
                 <small>Penambahan data artikel</small>
             </h1>
@@ -24,6 +33,7 @@
                 <li><a href="#"><i class="fa fa-dashboard"></i> Home</a></li>
                 <li><a href="#">Artikel</a></li>
                 <li><a href="#">Tambah</a></li>
+>>>>>>> e07d9d783bd12f4fb4c83a8d18272348e36eb759
             </ol>
         </section>
 
@@ -32,11 +42,40 @@
                 <div class="col-xs-12">
                     <div class="box box-info">
                         <div class="box-header with-border">
+<<<<<<< HEAD
+                            <a href="${pageContext.request.contextPath}/administrator/promo_produk" class="btn btn-default">
+=======
                             <a href="${pageContext.request.contextPath}/administrator/artikel" class="btn btn-default">
+>>>>>>> e07d9d783bd12f4fb4c83a8d18272348e36eb759
                                 <i class="fa fa-arrow-left"></i> Kembali
                             </a>
                         </div>
 
+<<<<<<< HEAD
+                        <form class="form-horizontal" method="post" action="${pageContext.request.contextPath}/administrator/promo_produk/edit">
+                            <div class="box-body pad">
+                                <div class="form-group">
+                                    <label for="produk_id" class="col-sm-2 control-label">Produk id</label>
+
+                                    <div class="col-sm-8">
+                                        <input type="text" class="form-control" id="produk_id" name="produk_id" placeholder="id" required>
+                                    </div>
+                                </div>
+
+                                <div class="form-group">
+                                    <label for="diskon" class="col-sm-2 control-label">Diskon</label>
+
+                                    <div class="col-sm-8">
+                                        <input type="text" class="form-control" id="diskon" name="diskon" placeholder="Diskon Produk" required>
+                                    </div>
+                                </div>
+
+                                <div class="form-group">
+                                    <label for="harga_promo" class="col-sm-2 control-label">Harga Promo (*)</label>
+
+                                    <div class="col-sm-8">
+                                        <input type="text" class="form-control" id="harga_promo" name="harga_promo" placeholder="Harga Promo" required>
+=======
                         <form class="form-horizontal" method="post" action="${pageContext.request.contextPath}/administrator/artikel/add">
                             <div class="box-body pad">
                                 <div class="form-group">
@@ -63,6 +102,7 @@
                                     </div>
                                     <div class="col-sm-8 col-sm-push-2">
                                         <img src="" id="gambar_preview" width="300px">
+>>>>>>> e07d9d783bd12f4fb4c83a8d18272348e36eb759
                                     </div>
                                 </div>
                             </div>
@@ -70,7 +110,11 @@
                             <div class="box-footer">
                                 <div class="col-sm-10">
                                     <button type="submit" class="btn btn-bitbucket pull-right">
+<<<<<<< HEAD
+                                        <i class="fa fa-plus-circle"></i> Ubah
+=======
                                         <i class="fa fa-plus-circle"></i> Tambah
+>>>>>>> e07d9d783bd12f4fb4c83a8d18272348e36eb759
                                     </button>
                                 </div>
                             </div>

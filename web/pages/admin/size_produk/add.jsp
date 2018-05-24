@@ -40,18 +40,18 @@
                         <form class="form-horizontal" method="post" action="${pageContext.request.contextPath}/administrator/size_produk/add">
                             <div class="box-body pad">
                                 <div class="form-group">
-                                    <label for="produkid" class="col-sm-2 control-label">Produk_id</label>
+                                    <label for="produk_id" class="col-sm-2 control-label">Produk_id</label>
 
                                     <div class="col-sm-8">
-                                        <input type="text" class="form-control" id="produkid" name="produkid" placeholder="Produk id">
+                                        <input type="text" class="form-control" id="produk_id" name="produk_id" placeholder="Produk id" required>
                                     </div>
                                 </div>
 
                                 <div class="form-group">
-                                    <label for="sizeid" class="col-sm-2 control-label">Size_id</label>
+                                    <label for="size_id" class="col-sm-2 control-label">Size_id</label>
 
                                     <div class="col-sm-8">
-                                        <input type="text" class="form-control" id="sizeid" name="sizeid" placeholder="Size id">
+                                        <input type="text" class="form-control" id="size_id" name="size_id" placeholder="Size id" required>
                                     </div>
                                 </div>
                             </div>

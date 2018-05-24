@@ -17,6 +17,15 @@
     <div class="content-wrapper">
         <section class="content-header">
             <h1>
+<<<<<<< HEAD
+                Ubah Produk
+                <small>Perubahan data produk</small>
+            </h1>
+            <ol class="breadcrumb">
+                <li><a href="#"><i class="fa fa-dashboard"></i> Home</a></li>
+                <li><a href="#">Produk</a></li>
+                <li><a href="#">Ubah</a></li>
+=======
                 Tambah Artikel
                 <small>Penambahan data artikel</small>
             </h1>
@@ -24,6 +33,7 @@
                 <li><a href="#"><i class="fa fa-dashboard"></i> Home</a></li>
                 <li><a href="#">Artikel</a></li>
                 <li><a href="#">Tambah</a></li>
+>>>>>>> e07d9d783bd12f4fb4c83a8d18272348e36eb759
             </ol>
         </section>
 
@@ -32,11 +42,43 @@
                 <div class="col-xs-12">
                     <div class="box box-info">
                         <div class="box-header with-border">
+<<<<<<< HEAD
+                            <a href="${pageContext.request.contextPath}/administrator/produk" class="btn btn-default">
+=======
                             <a href="${pageContext.request.contextPath}/administrator/artikel" class="btn btn-default">
+>>>>>>> e07d9d783bd12f4fb4c83a8d18272348e36eb759
                                 <i class="fa fa-arrow-left"></i> Kembali
                             </a>
                         </div>
 
+<<<<<<< HEAD
+                        <form class="form-horizontal" method="post" action="${pageContext.request.contextPath}/administrator/produk/edit">
+                            <div class="box-body pad">
+                                <div class="form-group">
+                                    <label for="brand_id" class="col-sm-2 control-label">Brand_id</label>
+
+                                    <div class="col-sm-8">
+                                        <input type="text" class="form-control" id="brand_id" name="brand_id" placeholder="id" required>
+                                    </div>
+                                </div>
+
+                                <div class="form-group">
+                                    <label for="nama" class="col-sm-2 control-label">Nama Produk (*)</label>
+
+                                    <div class="col-sm-8">
+                                        <input type="text" class="form-control" id="nama" name="nama" placeholder="Nama Produk" required>
+                                    </div>
+                                </div>
+
+                                <div class="form-group">
+                                    <label for="deskripsi" class="col-sm-2 control-label">Deskripsi Produk (*)</label>
+
+                                    <div class="col-sm-8">
+                                        <input type="text" class="form-control" id="deskripsi" name="deskripsi" placeholder="Deskripsi Produk" required>
+                                    </div>
+                                </div>
+
+=======
                         <form class="form-horizontal" method="post" action="${pageContext.request.contextPath}/administrator/artikel/add">
                             <div class="box-body pad">
                                 <div class="form-group">
@@ -55,6 +97,7 @@
                                         </textarea>
                                     </div>
                                 </div>
+>>>>>>> e07d9d783bd12f4fb4c83a8d18272348e36eb759
                                 <div class="form-group">
                                     <label for="gambar" class="col-sm-2 control-label">Gambar</label>
 
@@ -65,12 +108,51 @@
                                         <img src="" id="gambar_preview" width="300px">
                                     </div>
                                 </div>
+<<<<<<< HEAD
+
+                                <div class="form-group">
+                                    <label for="jenis_id" class="col-sm-2 control-label">Jenis id</label>
+
+                                    <div class="col-sm-8">
+                                        <input type="text" class="form-control" id="jenis_id" name="jenis_id" placeholder="id" required>
+                                    </div>
+                                </div>
+
+                                <div class="form-group">
+                                    <label for="bahan" class="col-sm-2 control-label">Bahan</label>
+
+                                    <div class="col-sm-8">
+                                        <input type="text" class="form-control" id="bahan" name="bahan" placeholder="Bsahan Produk" required>
+                                    </div>
+                                </div>
+
+                                <div class="form-group">
+                                    <label for="harga" class="col-sm-2 control-label">Harga</label>
+
+                                    <div class="col-sm-8">
+                                        <input type="text" class="form-control" id="harga" name="harga" placeholder="Harga" required>
+                                    </div>
+                                </div>
+
+                                <div class="form-group">
+                                    <label for="stok" class="col-sm-2 control-label">Stok</label>
+
+                                    <div class="col-sm-8">
+                                        <input type="text" class="form-control" id="stok" name="stok" placeholder="Stok Produk" required>
+                                    </div>
+                                </div>
+=======
+>>>>>>> e07d9d783bd12f4fb4c83a8d18272348e36eb759
                             </div>
 
                             <div class="box-footer">
                                 <div class="col-sm-10">
                                     <button type="submit" class="btn btn-bitbucket pull-right">
+<<<<<<< HEAD
+                                        <i class="fa fa-plus-circle"></i> Ubah
+=======
                                         <i class="fa fa-plus-circle"></i> Tambah
+>>>>>>> e07d9d783bd12f4fb4c83a8d18272348e36eb759
                                     </button>
                                 </div>
                             </div>

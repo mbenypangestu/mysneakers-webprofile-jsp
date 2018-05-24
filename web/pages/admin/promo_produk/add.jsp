@@ -40,10 +40,10 @@
                         <form class="form-horizontal" method="post" action="${pageContext.request.contextPath}/administrator/produk/add">
                             <div class="box-body pad">
                                 <div class="form-group">
-                                    <label for="produkid" class="col-sm-2 control-label">Produk_id</label>
+                                    <label for="produk_id" class="col-sm-2 control-label">Produk id</label>
 
                                     <div class="col-sm-8">
-                                        <input type="text" class="form-control" id="produkid" name="produkid" placeholder="id">
+                                        <input type="text" class="form-control" id="produk_id" name="produk_id" placeholder="id" required>
                                     </div>
                                 </div>
 
@@ -51,15 +51,15 @@
                                     <label for="diskon" class="col-sm-2 control-label">Diskon</label>
 
                                     <div class="col-sm-8">
-                                        <input type="text" class="form-control" id="diskon" name="diskon" placeholder="Diskon Produk">
+                                        <input type="text" class="form-control" id="diskon" name="diskon" placeholder="Diskon Produk" required>
                                     </div>
                                 </div>
 
                                 <div class="form-group">
-                                    <label for="hargapromo" class="col-sm-2 control-label">Harga Promo (*)</label>
+                                    <label for="harga_promo" class="col-sm-2 control-label">Harga Promo (*)</label>
 
                                     <div class="col-sm-8">
-                                        <input type="text" class="form-control" id="hargapromo" name="hargapromo" placeholder="Harga Promo">
+                                        <input type="text" class="form-control" id="harga_promo" name="harga_promo" placeholder="Harga Promo" required>
                                     </div>
                                 </div>
                             </div>

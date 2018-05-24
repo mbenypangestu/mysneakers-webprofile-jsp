@@ -40,31 +40,37 @@
                         <form class="form-horizontal" method="post" action="${pageContext.request.contextPath}/administrator/order/add">
                             <div class="box-body pad">
                                 <div class="form-group">
-                                    <label for="judul" class="col-sm-2 control-label">Judul Artikel (*)</label>
+                                    <label for="tgl_order" class="col-sm-2 control-label">Tanggal Order</label>
 
                                     <div class="col-sm-8">
-                                        <input type="text" class="form-control" id="judul" name="judul" placeholder="Judul">
+                                        <input type="text" class="form-control" id="tgl_order" name="tgl_order" placeholder="Tanggal" required>
                                     </div>
                                 </div>
+
                                 <div class="form-group">
-                                    <label for="konten" class="col-sm-2 control-label">Konten</label>
+                                    <label for="total" class="col-sm-2 control-label">Total</label>
 
                                     <div class="col-sm-8">
-                                        <textarea id="konten" name="konten" rows="10" cols="80">
-                                            Tulis artikelmu disini !
-                                        </textarea>
+                                        <input type="text" class="form-control" id="total" name="total" placeholder="Total" required>
                                     </div>
                                 </div>
+
                                 <div class="form-group">
-                                    <label for="gambar" class="col-sm-2 control-label">Gambar</label>
+                                    <label for="status_kirim" class="col-sm-2 control-label">Status Kirim</label>
 
                                     <div class="col-sm-8">
-                                        <input type="file" class="form-control" id="gambar">
-                                    </div>
-                                    <div class="col-sm-8 col-sm-push-2">
-                                        <img src="" id="gambar_preview" width="300px">
+                                        <input type="text" class="form-control" id="status_kirim" name="status_kirim" placeholder="Status" required>
                                     </div>
                                 </div>
+
+                                <div class="form-group">
+                                    <label for="status_terima" class="col-sm-2 control-label">Status Terima</label>
+
+                                    <div class="col-sm-8">
+                                        <input type="text" class="form-control" id="status_terima" name="status_terima" placeholder="Status" required>
+                                    </div>
+                                </div>
+
                             </div>
 
                             <div class="box-footer">

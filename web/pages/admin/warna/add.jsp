@@ -44,7 +44,7 @@
                                     <label for="warna" class="col-sm-2 control-label">Warna</label>
 
                                     <div class="col-sm-8">
-                                        <input type="text" class="form-control" id="warna" name="warna" placeholder="Warna">
+                                        <input type="text" class="form-control" id="warna" name="warna" placeholder="Warna" required>
                                     </div>
                                 </div>
 

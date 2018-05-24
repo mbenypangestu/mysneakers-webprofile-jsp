@@ -43,7 +43,7 @@
                                     <label for="judul" class="col-sm-2 control-label">Judul Artikel (*)</label>
 
                                     <div class="col-sm-8">
-                                        <input type="text" class="form-control" id="judul" name="judul" placeholder="Judul">
+                                        <input type="text" class="form-control" id="judul" name="judul" placeholder="Judul" required>
                                     </div>
                                 </div>
                                 <div class="form-group">

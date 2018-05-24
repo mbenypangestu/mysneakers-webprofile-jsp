@@ -17,13 +17,13 @@
     <div class="content-wrapper">
         <section class="content-header">
             <h1>
-                Tambah Artikel
-                <small>Penambahan data artikel</small>
+                Ubah Brand
+                <small>Perubahan data brand</small>
             </h1>
             <ol class="breadcrumb">
                 <li><a href="#"><i class="fa fa-dashboard"></i> Home</a></li>
-                <li><a href="#">Artikel</a></li>
-                <li><a href="#">Tambah</a></li>
+                <li><a href="#">Brand</a></li>
+                <li><a href="#">Ubah</a></li>
             </ol>
         </section>
 
@@ -32,37 +32,18 @@
                 <div class="col-xs-12">
                     <div class="box box-info">
                         <div class="box-header with-border">
-                            <a href="${pageContext.request.contextPath}/administrator/artikel" class="btn btn-default">
+                            <a href="${pageContext.request.contextPath}/administrator/brand" class="btn btn-default">
                                 <i class="fa fa-arrow-left"></i> Kembali
                             </a>
                         </div>
 
-                        <form class="form-horizontal" method="post" action="${pageContext.request.contextPath}/administrator/artikel/add">
+                        <form class="form-horizontal" method="post" action="${pageContext.request.contextPath}/administrator/brand/edit">
                             <div class="box-body pad">
                                 <div class="form-group">
-                                    <label for="judul" class="col-sm-2 control-label">Judul Artikel (*)</label>
+                                    <label for="nama" class="col-sm-2 control-label">Nama Brand (*)</label>
 
                                     <div class="col-sm-8">
-                                        <input type="text" class="form-control" id="judul" name="judul" placeholder="Judul">
-                                    </div>
-                                </div>
-                                <div class="form-group">
-                                    <label for="konten" class="col-sm-2 control-label">Konten</label>
-
-                                    <div class="col-sm-8">
-                                        <textarea id="konten" name="konten" rows="10" cols="80">
-                                            Tulis artikelmu disini !
-                                        </textarea>
-                                    </div>
-                                </div>
-                                <div class="form-group">
-                                    <label for="gambar" class="col-sm-2 control-label">Gambar</label>
-
-                                    <div class="col-sm-8">
-                                        <input type="file" class="form-control" id="gambar">
-                                    </div>
-                                    <div class="col-sm-8 col-sm-push-2">
-                                        <img src="" id="gambar_preview" width="300px">
+                                        <input type="text" class="form-control" id="nama" name="nama" placeholder="Nama Brand" required>
                                     </div>
                                 </div>
                             </div>
@@ -70,7 +51,7 @@
                             <div class="box-footer">
                                 <div class="col-sm-10">
                                     <button type="submit" class="btn btn-bitbucket pull-right">
-                                        <i class="fa fa-plus-circle"></i> Tambah
+                                        <i class="fa fa-plus-circle"></i> Ubah
                                     </button>
                                 </div>
                             </div>

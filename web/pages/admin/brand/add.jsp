@@ -43,7 +43,7 @@
                                     <label for="nama" class="col-sm-2 control-label">Nama Brand (*)</label>
 
                                     <div class="col-sm-8">
-                                        <input type="text" class="form-control" id="nama" name="nama" placeholder="Nama Brand">
+                                        <input type="text" class="form-control" id="nama" name="nama" placeholder="Nama Brand" required>
                                     </div>
                                 </div>
                             </div>

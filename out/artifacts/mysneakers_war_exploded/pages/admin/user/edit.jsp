@@ -17,6 +17,15 @@
     <div class="content-wrapper">
         <section class="content-header">
             <h1>
+<<<<<<< HEAD
+                Ubah User
+                <small>Perubahan data user</small>
+            </h1>
+            <ol class="breadcrumb">
+                <li><a href="#"><i class="fa fa-dashboard"></i> Home</a></li>
+                <li><a href="#">User</a></li>
+                <li><a href="#">Ubah</a></li>
+=======
                 Tambah Artikel
                 <small>Penambahan data artikel</small>
             </h1>
@@ -24,6 +33,7 @@
                 <li><a href="#"><i class="fa fa-dashboard"></i> Home</a></li>
                 <li><a href="#">Artikel</a></li>
                 <li><a href="#">Tambah</a></li>
+>>>>>>> e07d9d783bd12f4fb4c83a8d18272348e36eb759
             </ol>
         </section>
 
@@ -32,11 +42,83 @@
                 <div class="col-xs-12">
                     <div class="box box-info">
                         <div class="box-header with-border">
+<<<<<<< HEAD
+                            <a href="${pageContext.request.contextPath}/administrator/user" class="btn btn-default">
+=======
                             <a href="${pageContext.request.contextPath}/administrator/artikel" class="btn btn-default">
+>>>>>>> e07d9d783bd12f4fb4c83a8d18272348e36eb759
                                 <i class="fa fa-arrow-left"></i> Kembali
                             </a>
                         </div>
 
+<<<<<<< HEAD
+                        <form class="form-horizontal" method="post" action="${pageContext.request.contextPath}/administrator/user/edit">
+                            <div class="box-body pad">
+                                <div class="form-group">
+                                    <label for="nama" class="col-sm-2 control-label">Nama</label>
+
+                                    <div class="col-sm-8">
+                                        <input type="text" class="form-control" id="nama" name="nama" placeholder="Nama" required>
+                                    </div>
+                                </div>
+
+                                <div class="form-group">
+                                    <label for="username" class="col-sm-2 control-label">Username</label>
+
+                                    <div class="col-sm-8">
+                                        <input type="text" class="form-control" id="username" name="username" placeholder="Username" required>
+                                    </div>
+                                </div>
+
+                                <div class="form-group">
+                                    <label for="email" class="col-sm-2 control-label">Email</label>
+
+                                    <div class="col-sm-8">
+                                        <input type="text" class="form-control" id="email" name="email" placeholder="Email" required>
+                                    </div>
+                                </div>
+
+                                <div class="form-group">
+                                    <label for="password" class="col-sm-2 control-label">Password</label>
+
+                                    <div class="col-sm-8">
+                                        <input type="text" class="form-control" id="password" name="password" placeholder="Password" required>
+                                    </div>
+                                </div>
+
+                                <div class="form-group">
+                                    <label for="remember_token" class="col-sm-2 control-label">Remember token</label>
+
+                                    <div class="col-sm-8">
+                                        <input type="text" class="form-control" id="remember_token" name="remember_token" placeholder="token" required>
+                                    </div>
+                                </div>
+
+                                <div class="form-group">
+                                    <label for="alamat" class="col-sm-2 control-label">Alamat</label>
+
+                                    <div class="col-sm-8">
+                                        <input type="text" class="form-control" id="alamat" name="alamat" placeholder="Alamat" required>
+                                    </div>
+                                </div>
+
+                                <div class="form-group">
+                                    <label for="telp" class="col-sm-2 control-label">Telp</label>
+
+                                    <div class="col-sm-8">
+                                        <input type="text" class="form-control" id="telp" name="telp" placeholder="Telp" required>
+                                    </div>
+                                </div>
+
+                                <div class="form-group">
+                                    <label for="foto" class="col-sm-2 control-label">Foto</label>
+
+                                    <div class="col-sm-8">
+                                        <input type="file" class="form-control" id="foto">
+                                    </div>
+                                    <div class="col-sm-8 col-sm-push-2">
+                                        <img src="" id="foto_preview" width="300px">
+=======
                         <form class="form-horizontal" method="post" action="${pageContext.request.contextPath}/administrator/artikel/add">
                             <div class="box-body pad">
                                 <div class="form-group">
@@ -63,6 +145,7 @@
                                     </div>
                                     <div class="col-sm-8 col-sm-push-2">
                                         <img src="" id="gambar_preview" width="300px">
+>>>>>>> e07d9d783bd12f4fb4c83a8d18272348e36eb759
                                     </div>
                                 </div>
                             </div>
@@ -70,7 +153,11 @@
                             <div class="box-footer">
                                 <div class="col-sm-10">
                                     <button type="submit" class="btn btn-bitbucket pull-right">
+<<<<<<< HEAD
+                                        <i class="fa fa-plus-circle"></i> Ubah
+=======
                                         <i class="fa fa-plus-circle"></i> Tambah
+>>>>>>> e07d9d783bd12f4fb4c83a8d18272348e36eb759
                                     </button>
                                 </div>
                             </div>
