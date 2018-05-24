@@ -3,6 +3,7 @@
 <%@ page import="dao.ProdukDao" %>
 <%@ page import="model.Brand" %>
 <%@ page import="dao.BrandDao" %>
+<%@ page import="dao.JenisDao" %>
 <!DOCTYPE html>
 <html>
 <head>
@@ -51,13 +52,14 @@
                                     <th>Nama</th>
                                     <th>Harga (IDR)</th>
                                     <th>Stok</th>
-                                    <th width="15%">#</th>
+                                    <th width="17%">#</th>
                                 </tr>
                                 </thead>
                                 <tbody>
                                 <%
-                                    ProdukDao produkDao = new ProdukDao();
                                     BrandDao brandDao   = new BrandDao();
+                                    JenisDao jenisDao   = new JenisDao();
+                                    ProdukDao produkDao = new ProdukDao();
 
                                     List<Produk> produkList = produkDao.findAll();
 
@@ -67,7 +69,7 @@
                                         <tr>
                                             <td><%= i %></td>
                                             <td><%= brandDao.findById(produk.getBrand_id()).getNama() %></td>
-                                            <td><%= produk.getJenis_id() %></td>
+                                            <td><%= jenisDao.findById(produk.getJenis_id()).getJenis() %></td>
                                             <td><%= produk.getNama() %></td>
                                             <td><%= produk.getHarga() %></td>
                                             <td><%= produk.getStok() %></td>

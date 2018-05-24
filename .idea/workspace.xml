@@ -7,20 +7,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="28cee12e-8d90-48b5-a8eb-3a5e8abb3a8b" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/dao/BrandDao.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/dao/JenisDao.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/dao/ProdukDao.java" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/mysneakers_war_exploded/WEB-INF/classes/model/Produk.class" afterPath="$PROJECT_DIR$/out/artifacts/mysneakers_war_exploded/WEB-INF/classes/model/Produk.class" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/mysneakers_war_exploded/pages/admin/includes/_sidebar.jsp" afterPath="$PROJECT_DIR$/out/artifacts/mysneakers_war_exploded/pages/admin/includes/_sidebar.jsp" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/mysneakers_war_exploded/pages/admin/produk/list.jsp" afterPath="$PROJECT_DIR$/out/artifacts/mysneakers_war_exploded/pages/admin/produk/list.jsp" />
-      <change beforePath="$PROJECT_DIR$/out/production/mysneakers/model/Produk.class" afterPath="$PROJECT_DIR$/out/production/mysneakers/model/Produk.class" />
-      <change beforePath="$PROJECT_DIR$/src/model/Brand.java" afterPath="$PROJECT_DIR$/src/model/Brand.java" />
-      <change beforePath="$PROJECT_DIR$/src/model/Jenis.java" afterPath="$PROJECT_DIR$/src/model/Jenis.java" />
-      <change beforePath="$PROJECT_DIR$/src/model/Produk.java" afterPath="$PROJECT_DIR$/src/model/Produk.java" />
-      <change beforePath="$PROJECT_DIR$/src/model/User.java" afterPath="$PROJECT_DIR$/src/model/User.java" />
       <change beforePath="$PROJECT_DIR$/web/pages/admin/brand/list.jsp" afterPath="$PROJECT_DIR$/web/pages/admin/brand/list.jsp" />
-      <change beforePath="$PROJECT_DIR$/web/pages/admin/includes/_sidebar.jsp" afterPath="$PROJECT_DIR$/web/pages/admin/includes/_sidebar.jsp" />
       <change beforePath="$PROJECT_DIR$/web/pages/admin/jenis/list.jsp" afterPath="$PROJECT_DIR$/web/pages/admin/jenis/list.jsp" />
       <change beforePath="$PROJECT_DIR$/web/pages/admin/produk/list.jsp" afterPath="$PROJECT_DIR$/web/pages/admin/produk/list.jsp" />
     </list>
@@ -156,31 +143,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="list.jsp" pinned="false" current-in-tab="false">
+      <file leaf-file-name="list.jsp" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/web/pages/admin/produk/list.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="222">
-              <caret line="72" column="48" lean-forward="false" selection-start-line="72" selection-start-column="48" selection-end-line="72" selection-end-column="71" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="list.jsp" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/web/pages/admin/brand/list.jsp">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="56">
-              <caret line="54" column="32" lean-forward="false" selection-start-line="54" selection-start-column="32" selection-end-line="77" selection-end-column="34" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="list.jsp" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/web/pages/admin/jenis/list.jsp">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="434">
-              <caret line="66" column="123" lean-forward="false" selection-start-line="66" selection-start-column="123" selection-end-line="66" selection-end-column="123" />
+            <state relative-caret-position="78">
+              <caret line="49" column="45" lean-forward="false" selection-start-line="49" selection-start-column="45" selection-end-line="49" selection-end-column="45" />
               <folding />
             </state>
           </provider>
@@ -284,9 +251,9 @@
         <option value="$PROJECT_DIR$/src/model/User.java" />
         <option value="$PROJECT_DIR$/src/dao/BrandDao.java" />
         <option value="$PROJECT_DIR$/src/dao/JenisDao.java" />
-        <option value="$PROJECT_DIR$/web/pages/admin/produk/list.jsp" />
-        <option value="$PROJECT_DIR$/web/pages/admin/brand/list.jsp" />
         <option value="$PROJECT_DIR$/web/pages/admin/jenis/list.jsp" />
+        <option value="$PROJECT_DIR$/web/pages/admin/brand/list.jsp" />
+        <option value="$PROJECT_DIR$/web/pages/admin/produk/list.jsp" />
       </list>
     </option>
   </component>
@@ -779,12 +746,12 @@
       <workItem from="1526875266121" duration="2622000" />
       <workItem from="1526958354810" duration="2350000" />
       <workItem from="1526970775357" duration="4010000" />
-      <workItem from="1527079095799" duration="20841000" />
+      <workItem from="1527079095799" duration="21041000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="102956000" />
+    <option name="totallyTimeSpent" value="103156000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1283,26 +1250,26 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/web/pages/admin/produk/list.jsp">
+    <entry file="file://$PROJECT_DIR$/web/pages/admin/jenis/list.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="222">
-          <caret line="72" column="48" lean-forward="false" selection-start-line="72" selection-start-column="48" selection-end-line="72" selection-end-column="71" />
+        <state relative-caret-position="254">
+          <caret line="47" column="49" lean-forward="false" selection-start-line="47" selection-start-column="49" selection-end-line="47" selection-end-column="49" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/web/pages/admin/brand/list.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="56">
-          <caret line="54" column="32" lean-forward="false" selection-start-line="54" selection-start-column="32" selection-end-line="77" selection-end-column="34" />
+        <state relative-caret-position="308">
+          <caret line="50" column="49" lean-forward="false" selection-start-line="50" selection-start-column="49" selection-end-line="50" selection-end-column="49" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/web/pages/admin/jenis/list.jsp">
+    <entry file="file://$PROJECT_DIR$/web/pages/admin/produk/list.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="434">
-          <caret line="66" column="123" lean-forward="false" selection-start-line="66" selection-start-column="123" selection-end-line="66" selection-end-column="123" />
+        <state relative-caret-position="78">
+          <caret line="49" column="45" lean-forward="false" selection-start-line="49" selection-start-column="45" selection-end-line="49" selection-end-column="45" />
           <folding />
         </state>
       </provider>

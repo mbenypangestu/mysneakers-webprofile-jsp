@@ -45,7 +45,7 @@
                                 <tr>
                                     <th width="5%">No.</th>
                                     <th>Jenis</th>
-                                    <th width="15%">#</th>
+                                    <th width="17%">#</th>
                                 </tr>
                                 </thead>
                                 <tbody>
