@@ -1,3 +1,9 @@
+<%@ page import="dao.BrandDao" %>
+<%@ page import="dao.JenisDao" %>
+<%@ page import="dao.ProdukDao" %>
+<%@ page import="model.Jenis" %>
+<%@ page import="java.util.List" %>
+<%@ page import="model.Brand" %>
 <!DOCTYPE html>
 <html>
 <head>
@@ -46,18 +52,30 @@
                                 </tr>
                                 </thead>
                                 <tbody>
-                                <tr>
-                                    <td>a</td>
-                                    <td>b</td>
-                                    <td>
-                                        <a href="${pageContext.request.contextPath}/administrator/brand/edit" class="btn btn-primary">
-                                            <i class="fa fa-pencil"></i> Edit
-                                        </a>
-                                        <a href="${pageContext.request.contextPath}/administrator/brand/delete" class="btn btn-danger">
-                                            <i class="fa fa-times"></i> Hapus
-                                        </a>
-                                    </td>
-                                </tr>
+                                <%
+                                    BrandDao brandDao   = new BrandDao();
+
+                                    List<Brand> brandList = brandDao.findAll();
+
+                                    int i = 1;
+                                    for (Brand brand : brandList) {
+                                %>
+                                        <tr>
+                                            <td><%= i %></td>
+                                            <td><%= brand.getNama() %></td>
+                                            <td>
+                                                <a href="${pageContext.request.contextPath}/administrator/brand/edit?id=<%= brand.getId() %>" class="btn btn-primary">
+                                                    <i class="fa fa-pencil"></i> Edit
+                                                </a>
+                                                <a href="${pageContext.request.contextPath}/administrator/brand/delete?id=<%= brand.getId() %>" class="btn btn-danger">
+                                                    <i class="fa fa-times"></i> Hapus
+                                                </a>
+                                            </td>
+                                        </tr>
+                                <%
+                                        i++;
+                                    }
+                                %>
                                 </tfoot>
                             </table>
                         </div>

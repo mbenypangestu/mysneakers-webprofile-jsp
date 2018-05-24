@@ -5,11 +5,13 @@
  */
 package model;
 
+import java.io.Serializable;
+
 /**
  *
  * @author dell
  */
-public class User {
+public class User implements Serializable {
     int id;
     String nama             = null;
     String username         = null;

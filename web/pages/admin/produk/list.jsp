@@ -1,3 +1,9 @@
+<%@ page import="java.util.List" %>
+<%@ page import="model.Produk" %>
+<%@ page import="dao.ProdukDao" %>
+<%@ page import="model.Brand" %>
+<%@ page import="dao.BrandDao" %>
+<%@ page import="dao.JenisDao" %>
 <!DOCTYPE html>
 <html>
 <head>
@@ -42,32 +48,45 @@
                                 <tr>
                                     <th width="5%">No.</th>
                                     <th>Brand_id</th>
-                                    <th>Nama</th>
                                     <th>Jenis_id</th>
-                                    <th>Bahan</th>
-                                    <th>Harga</th>
+                                    <th>Nama</th>
+                                    <th>Harga (IDR)</th>
                                     <th>Stok</th>
                                     <th width="15%">#</th>
                                 </tr>
                                 </thead>
                                 <tbody>
-                                <tr>
-                                    <td>a</td>
-                                    <td>b</td>
-                                    <td>c</td>
-                                    <td>d</td>
-                                    <td>e</td>
-                                    <td>f</td>
-                                    <td>g</td>
-                                    <td>
-                                        <a href="${pageContext.request.contextPath}/administrator/produk/edit" class="btn btn-primary">
-                                            <i class="fa fa-pencil"></i> Edit
-                                        </a>
-                                        <a href="${pageContext.request.contextPath}/administrator/produk/delete" class="btn btn-danger">
-                                            <i class="fa fa-times"></i> Hapus
-                                        </a>
-                                    </td>
-                                </tr>
+                                <%
+                                    BrandDao brandDao   = new BrandDao();
+                                    JenisDao jenisDao   = new JenisDao();
+                                    ProdukDao produkDao = new ProdukDao();
+
+                                    List<Produk> produkList = produkDao.findAll();
+
+                                    int i = 1;
+                                    for (Produk produk : produkList) {
+                                %>
+                                        <tr>
+                                            <td><%= i %></td>
+                                            <td><%= brandDao.findById(produk.getBrand_id()).getNama() %></td>
+                                            <td><%= jenisDao.findById(produk.getJenis_id()).getJenis() %></td>
+                                            <td><%= produk.getNama() %></td>
+                                            <td><%= produk.getHarga() %></td>
+                                            <td><%= produk.getStok() %></td>
+                                            <td>
+                                                <a href="${pageContext.request.contextPath}/administrator/produk/edit?id=<%= produk.getId() %>" class="btn btn-primary">
+                                                    <i class="fa fa-pencil"></i> Edit
+                                                </a>
+                                                <a href="${pageContext.request.contextPath}/administrator/produk/delete?id=<%= produk.getId() %>" class="btn btn-danger">
+                                                    <i class="fa fa-times"></i> Hapus
+                                                </a>
+                                            </td>
+                                        </tr>
+                                <%
+                                        i++;
+                                    }
+                                %>
+
                                 </tfoot>
                             </table>
                         </div>

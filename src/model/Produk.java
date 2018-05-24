@@ -5,18 +5,25 @@
  */
 package model;
 
+import java.io.Serializable;
+
 /**
  *
  * @author dell
  */
-public class Produk {
+public class Produk implements Serializable {
     int id;
     int brand_id;
-    String nama;
     int jenis_id;
+    String nama;
+    String deskripsi;
     String bahan;
     double harga;
     int stok;
+    String gambar;
+
+    public Produk() {
+    }
 
     public Produk(int id, int brand_id, String nama, int jenis_id, String bahan, double harga, int stok) {
         this.id = id;
@@ -83,5 +90,20 @@ public class Produk {
     public void setStok(int stok) {
         this.stok = stok;
     }
-    
+
+    public String getDeskripsi() {
+        return deskripsi;
+    }
+
+    public void setDeskripsi(String deskripsi) {
+        this.deskripsi = deskripsi;
+    }
+
+    public String getGambar() {
+        return gambar;
+    }
+
+    public void setGambar(String gambar) {
+        this.gambar = gambar;
+    }
 }
