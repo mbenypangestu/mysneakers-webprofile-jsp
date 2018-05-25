@@ -47,8 +47,8 @@
                                 <thead>
                                 <tr>
                                     <th width="5%">No.</th>
-                                    <th>Brand_id</th>
-                                    <th>Jenis_id</th>
+                                    <th>Brand</th>
+                                    <th>Jenis</th>
                                     <th>Nama</th>
                                     <th>Harga (IDR)</th>
                                     <th>Stok</th>
