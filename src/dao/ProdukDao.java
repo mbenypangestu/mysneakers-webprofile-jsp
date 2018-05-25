@@ -92,16 +92,100 @@ public class ProdukDao extends Database implements IBaseDao {
 
     @Override
     public boolean save() {
-        return false;
+        boolean status = false;
+        try {
+            if (!isConnectionExist()) {
+                showFailedConnect();
+                return false;
+            }
+
+            this.statement  = this.conn.createStatement();
+            this.query      = "INSERT INTO " + this.tableName + " set " +
+                    "brand_id = " + tableModel.getBrand_id() + ", " +
+                    "jenis_id = " + tableModel.getJenis_id() + ", " +
+                    "nama = '" + tableModel.getNama() + "', " +
+                    "deskripsi = '" + tableModel.getDeskripsi() + "', " +
+                    "bahan = '" + tableModel.getBahan() + "', " +
+                    "harga = " + tableModel.getHarga() + ", " +
+                    "stok = " + tableModel.getStok() + ", " +
+                    "gambar = '" + tableModel.getGambar() + "'";
+
+            if (this.statement.executeUpdate(this.query) == 1) status = true;
+            else status = false;
+        } catch (Exception e) {
+            e.printStackTrace();
+            status = false;
+        }
+        this.disconnectDb();
+        return status;
     }
 
     @Override
     public boolean update(int id) {
-        return false;
+        boolean status = false;
+        try {
+            if (!isConnectionExist()) {
+                showFailedConnect();
+                return false;
+            }
+
+            this.statement  = this.conn.createStatement();
+            this.query      = "UPDATE " + this.tableName + " set " +
+                    "brand_id = " + tableModel.getBrand_id() + ", " +
+                    "jenis_id = " + tableModel.getJenis_id() + ", " +
+                    "nama = '" + tableModel.getNama() + "', " +
+                    "deskripsi = '" + tableModel.getDeskripsi() + "', " +
+                    "bahan = '" + tableModel.getBahan() + "', " +
+                    "harga = " + tableModel.getHarga() + ", " +
+                    "stok = " + tableModel.getStok() + ", " +
+                    "gambar = '" + tableModel.getGambar() + "'"+
+                    "WHERE id = " + id;
+
+            if (this.statement.executeUpdate(this.query) == 1) status = true;
+            else status = false;
+        } catch (Exception e) {
+            e.printStackTrace();
+            status = false;
+        }
+        this.disconnectDb();
+        return status;
     }
 
     @Override
     public boolean delete(int id) {
-        return false;
+        boolean status = false;
+        try {
+            if (!isConnectionExist()) {
+                showFailedConnect();
+                return false;
+            }
+
+            this.statement  = this.conn.createStatement();
+            this.query      = "DELETE FROM " + this.tableName + " WHERE id = " + id;
+
+            if (this.statement.executeUpdate(this.query) == 1) status = true;
+            else status = false;
+        } catch (Exception e) {
+            e.printStackTrace();
+            status = false;
+        }
+        this.disconnectDb();
+        return status;
+    }
+
+    public Produk getTableModel() {
+        return tableModel;
+    }
+
+    public void setTableModel(Produk tableModel) {
+        this.tableModel = tableModel;
+    }
+
+    public List<Produk> getListTableModel() {
+        return listTableModel;
+    }
+
+    public void setListTableModel(List<Produk> listTableModel) {
+        this.listTableModel = listTableModel;
     }
 }

@@ -141,7 +141,7 @@ public class UserDao extends Database implements IBaseDao {
             if (this.statement.executeUpdate(this.query) == 1) status = true;
             else status = false;
         } catch (Exception e) {
-            System.out.println(e.getMessage());
+            e.printStackTrace();
             status = false;
         }
         this.disconnectDb();

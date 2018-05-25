@@ -11,6 +11,10 @@
         <servlet-name>LoginServlet</servlet-name>
         <servlet-class>servlet.LoginServlet</servlet-class>
     </servlet>
+    <servlet>
+        <servlet-name>AddProdukServlet</servlet-name>
+        <servlet-class>servlet.admin.produk.AddProdukServlet</servlet-class>
+    </servlet>
 
     <servlet-mapping>
         <servlet-name>RegisterServlet</servlet-name>
@@ -19,5 +23,9 @@
     <servlet-mapping>
         <servlet-name>LoginServlet</servlet-name>
         <url-pattern>/login</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>AddProdukServlet</servlet-name>
+        <url-pattern>/administrator/produk/add</url-pattern>
     </servlet-mapping>
 </web-app>

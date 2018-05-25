@@ -1,3 +1,6 @@
+<%@ page import="dao.UserDao" %>
+<%@ page import="java.util.List" %>
+<%@ page import="model.User" %>
 <!DOCTYPE html>
 <html>
 <head>
@@ -44,34 +47,39 @@
                                     <th>Nama</th>
                                     <th>Username</th>
                                     <th>Email</th>
-                                    <th>Password</th>
-                                    <th>Remember_token</th>
                                     <th>Alamat</th>
-                                    <th>Foto</th>
                                     <th>Telp</th>
                                     <th width="15%">#</th>
                                 </tr>
                                 </thead>
                                 <tbody>
-                                <tr>
-                                    <td>a</td>
-                                    <td>b</td>
-                                    <td>c</td>
-                                    <td>d</td>
-                                    <td>e</td>
-                                    <td>f</td>
-                                    <td>g</td>
-                                    <td>h</td>
-                                    <td>i</td>
-                                    <td>
-                                        <a href="${pageContext.request.contextPath}/administrator/user/edit" class="btn btn-primary">
-                                            <i class="fa fa-pencil"></i> Edit
-                                        </a>
-                                        <a href="${pageContext.request.contextPath}/administrator/user/delete" class="btn btn-danger">
-                                            <i class="fa fa-times"></i> Hapus
-                                        </a>
-                                    </td>
-                                </tr>
+                                <%
+                                    UserDao userDao     = new UserDao();
+                                    List<User> userList = userDao.findAll();
+
+                                    int i = 1;
+                                    for (User user : userList) {
+                                %>
+                                        <tr>
+                                            <td><%= i %></td>
+                                            <td><%= user.getNama() %></td>
+                                            <td><%= user.getUsername() %></td>
+                                            <td><%= user.getEmail() %></td>
+                                            <td><%= user.getAlamat() %></td>
+                                            <td><%= user.getTelp() %></td>
+                                            <td>
+                                                <a href="${pageContext.request.contextPath}/administrator/user/edit" class="btn btn-primary">
+                                                    <i class="fa fa-pencil"></i> Edit
+                                                </a>
+                                                <a href="${pageContext.request.contextPath}/administrator/user/delete" class="btn btn-danger">
+                                                    <i class="fa fa-times"></i> Hapus
+                                                </a>
+                                            </td>
+                                        </tr>
+                                <%
+                                        i++;
+                                    }
+                                %>
                                 </tfoot>
                             </table>
                         </div>
